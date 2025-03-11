@@ -1,0 +1,143 @@
+{
+    "Rating_scale": 5,
+    "Correctness": [
+        { 
+            "requirement": "The system shall allow users to fly their personal vehicles in urban airspaces by 2023.", 
+            "rating": 1, 
+            "justification": "This requirement is invalid because it describes an infeasible and erroneous functionality. Current technology, regulations, and infrastructure do not support personal vehicle flight in urban airspaces, especially within the stated timeline. It contradicts established domain knowledge and regulatory frameworks.", 
+            "improved_requirement": "The system shall provide feasibility studies for urban air mobility technologies by 2025." 
+        },
+        { 
+            "requirement": "The mobile application shall process user queries using artificial intelligence algorithms.", 
+            "rating": 3, 
+            "justification": "The requirement is mostly valid, as AI-based query processing is feasible and aligns with current technological capabilities. However, it lacks specificity about the type of AI algorithm, the scope of processing, and measurable outcomes, leading to ambiguity about technical feasibility.", 
+            "improved_requirement": "The mobile application shall process user queries using a natural language processing model, ensuring a 90% accuracy rate in query classification and intent detection." 
+        },
+        { 
+            "requirement": "The system shall detect and classify objects in real-time using a convolutional neural network with an accuracy of at least 95% under normal lighting conditions.", 
+            "rating": 5, 
+            "justification": "This requirement is completely valid, technically sound, and feasible within the context of current capabilities in computer vision. It defines a clear functionality, aligns with established practices, and specifies measurable and realistic success criteria.", 
+            "improved_requirement": null 
+        }
+    ],
+    "Unambiguity": [
+        { 
+            "requirement": "The system should be fast and handle most situations efficiently.", 
+            "rating": 1, 
+            "justification": "This requirement is highly ambiguous as it uses subjective terms like 'fast' and 'most situations,' which are open to multiple interpretations. Stakeholders could have conflicting understandings of what is expected.", 
+            "improved_requirement": "The system shall process 95% of user transactions within 2 seconds under peak load conditions." 
+        },
+        { 
+            "requirement": "The application shall support various user input methods.", 
+            "rating": 3, 
+            "justification": "While the requirement is somewhat understandable, the phrase 'various user input methods' is vague and leaves room for differing interpretations. Stakeholders might disagree on what constitutes 'various' input methods.", 
+            "improved_requirement": "The application shall support user input via touchscreen, keyboard, and voice recognition." 
+        },
+        { 
+            "requirement": "The system shall allow users to upload files up to 10MB in size using the drag-and-drop interface.", 
+            "rating": 5, 
+            "justification": "This requirement is written with completely clear and precise language, leaving no room for misinterpretation. All terms are specific, and the expected behavior is unambiguous.", 
+            "improved_requirement": null 
+        }
+    ],
+    "Completeness": [
+        { 
+            "requirement": "The system shall process transactions.", 
+            "rating": 1, 
+            "justification": "This requirement is severely incomplete, as it lacks critical details about the type of transactions, processing method, conditions, or expected outputs. It is too vague to provide meaningful guidance for implementation.", 
+            "improved_requirement": "The system shall process financial transactions by validating input data, calculating applicable taxes, and generating a confirmation receipt for each transaction." 
+        },
+        { 
+            "requirement": "The application shall support user authentication.", 
+            "rating": 3, 
+            "justification": "This requirement includes a general idea of functionality but omits essential details, such as the authentication methods (e.g., password, biometric, or multi-factor) or the conditions under which authentication must occur.", 
+            "improved_requirement": "The application shall support user authentication using a combination of password-based login and biometric verification (fingerprint or facial recognition) and enforce a session timeout after 10 minutes of inactivity." 
+        },
+        { 
+            "requirement": "The system shall generate a monthly financial report for each registered user, summarizing all transactions, categorizing expenses by type, and calculating total income and expenditure. Reports shall be downloadable as PDF files and accessible only to authenticated users.", 
+            "rating": 5, 
+            "justification": "This requirement is fully complete, addressing all necessary inputs (user transactions), outputs (PDF reports), conditions (monthly report generation and access restrictions), and constraints (authentication required). It leaves no gaps in understanding.", 
+            "improved_requirement": null 
+        }  
+    ],
+    "Consistency": [
+        { 
+            "requirement": "The system shall allow users to upload files up to 10 MB in size. Files larger than 20 MB will be rejected.", 
+            "rating": 1, 
+            "justification": "The requirement contains an internal contradiction about the file size limits (10 MB vs. 20 MB). This inconsistency makes it unclear whether the maximum size allowed is 10 MB or 20 MB.", 
+            "improved_requirement": "The system shall allow users to upload files up to 10 MB in size. Files larger than 10 MB will be rejected." 
+        },
+        { 
+            "requirement": "The system shall generate weekly performance reports. These reports shall be customizable. The monthly reports must include a summary of the data.", 
+            "rating": 3, 
+            "justification": "The requirement mostly maintains logical flow but includes minor inconsistency in terminology and scope by introducing 'monthly reports' within a statement about 'weekly reports.' This could cause confusion.", 
+            "improved_requirement": "The system shall generate weekly performance reports that are customizable. Additionally, a monthly summary report consolidating the weekly data shall be provided." 
+        },
+        { 
+            "requirement": "The system shall allow users to reset their passwords through an email verification process. Upon successful verification, users shall set a new password following the defined security policy, including a minimum length of 12 characters and at least one special character.", 
+            "rating": 5, 
+            "justification": "The requirement is entirely consistent, with no contradictions or logical issues. It maintains uniform terminology ('verification,' 'password') and aligns with a coherent logical flow.", 
+            "improved_requirement": null 
+        }
+    ],
+    "Precision": [
+        { 
+            "requirement": "The system shall respond quickly to user requests.", 
+            "rating": 1, 
+            "justification": "The requirement is highly imprecise, using vague terms like 'quickly' without defining what constitutes an acceptable response time. It lacks any numerical values or tolerances.", 
+            "improved_requirement": "The system shall respond to user requests within 2 seconds under normal operating conditions." 
+        },
+        { 
+            "requirement": "The battery shall last a long time and operate effectively in different temperatures.", 
+            "rating": 3, 
+            "justification": "The requirement is moderately precise, but terms like 'a long time' and 'different temperatures' are vague. It partially specifies performance goals but lacks exact durations or temperature ranges.", 
+            "improved_requirement": "The battery shall provide a minimum of 8 hours of operation under normal use and function effectively between -10°C and 50°C." 
+        },
+        { 
+            "requirement": "The sensor shall detect objects within a range of 5 meters ± 0.1 meters, with a detection accuracy of 95% under standard environmental conditions.", 
+            "rating": 5, 
+            "justification": "The requirement is highly precise, specifying an exact range, tolerance, and detection accuracy, while avoiding unnecessary details or redundancy. It leaves no room for misinterpretation.", 
+            "improved_requirement": null 
+        }
+    ],
+    "Verifiability": [
+        {
+            "requirement": "The system shall be easy to use.",
+            "rating": 1,
+            "justification": "The requirement is subjective and lacks measurable success criteria. Terms like 'easy to use' are open to interpretation and cannot be tested or verified objectively.",
+            "improved_requirement": "The system shall achieve a usability score of at least 85 on the System Usability Scale (SUS) during user testing with a sample size of 30 users."
+        },
+        {
+            "requirement": "The device shall operate efficiently at high temperatures.",
+            "rating": 3,
+            "justification": "The requirement is generally verifiable but lacks explicit success criteria or detailed verification methods. The term 'efficiently' is not defined, leaving room for interpretation.",
+            "improved_requirement": "The device shall maintain an operational efficiency of at least 85% at ambient temperatures up to 60°C, verified through thermal performance testing."
+        },
+        {
+            "requirement": "The engine shall achieve a fuel efficiency of 15 kilometers per liter ± 0.5 kilometers in urban driving conditions, verified through standardized fuel efficiency tests (ISO 12345).",
+            "rating": 5,
+            "justification": "The requirement is fully verifiable, with clear, measurable success criteria and explicitly defined verification methods. It specifies both the testing standard and the acceptable tolerance range.",
+            "improved_requirement": null
+        }
+    ],
+    "Atomicity": [
+        {
+            "requirement": "The system shall encrypt user data, ensure secure access, and notify the user of unauthorized login attempts.",
+            "rating": 1,
+            "justification": "The requirement addresses multiple distinct functionalities (encryption, access security, and notification) within a single statement, making it difficult to address or test independently.",
+            "improved_requirement": "The system shall encrypt user data using AES-256 encryption."
+        },
+        {
+            "requirement": "The application shall log user activities and provide administrators with weekly reports.",
+            "rating": 3,
+            "justification": "The requirement includes two related but distinct objectives: logging activities and generating reports. These objectives could be better expressed as separate requirements to enhance clarity and testability.",
+            "improved_requirement": "The application shall log all user activities in a centralized log database."
+        },
+        {
+            "requirement": "The system shall support user authentication using two-factor authentication (2FA).",
+            "rating": 5,
+            "justification": "The requirement is entirely atomic, focusing on a single distinct functionality (two-factor authentication). It avoids compound statements or additional objectives.",
+            "improved_requirement": null
+        }
+    ]
+}

@@ -1,0 +1,476 @@
+{
+    "failed_generations": 0,
+    "rating_scale": 5,
+    "evaluations": [
+        {
+            "requirement": "The system shall refresh the display every 60 seconds.",
+            "evaluation": {
+                "Correctness": {
+                    "requirement": "The system shall refresh the display every 60 seconds.",
+                    "rating": 5,
+                    "justification": "This requirement is completely valid, technically sound, and feasible within the context of current display technologies. It defines a clear functionality, aligns with established practices, and specifies a measurable and realistic time interval for display refresh.",
+                    "proposed_requirement": null
+                },
+                "Unambiguity": {
+                    "requirement": "The system shall refresh the display every 60 seconds.",
+                    "rating": 5,
+                    "justification": "This requirement is written with completely clear and precise language, leaving no room for misinterpretation. The term 'refresh the display' is specific, and the expected behavior of doing so every 60 seconds is unambiguous.",
+                    "proposed_requirement": null
+                },
+                "Completeness": {
+                    "requirement": "The system shall refresh the display every 60 seconds.",
+                    "rating": 4,
+                    "justification": "This requirement is mostly complete, covering the necessary details about the display refresh interval. However, it lacks information about the conditions under which the refresh should occur (e.g., user interaction, system events, or specific scenarios).",
+                    "proposed_requirement": "The system shall refresh the display every 60 seconds in response to user interaction or system events, such as changes to the application state or network connectivity."
+                },
+                "Consistency": {
+                    "requirement": "The system shall refresh the display every 60 seconds.",
+                    "rating": 5,
+                    "justification": "The requirement is entirely consistent, with no contradictions or logical issues. It maintains uniform terminology ('system,' 'display') and aligns with a coherent logical flow.",
+                    "proposed_requirement": null
+                },
+                "Precision": {
+                    "requirement": "The system shall refresh the display every 60 seconds.",
+                    "rating": 4,
+                    "justification": "The requirement is precise, specifying an exact refresh interval of 60 seconds. However, it lacks units for the time value, which is a minor oversight. The requirement is concise and avoids unnecessary elaboration.",
+                    "proposed_requirement": "The system shall refresh the display every 60 seconds."
+                },
+                "Verifiability": {
+                    "requirement": "The system shall refresh the display every 60 seconds.",
+                    "rating": 4,
+                    "justification": "The requirement is mostly verifiable, with clear success criteria (refreshing the display every 60 seconds) and feasible verification methods (e.g., monitoring the display update frequency). However, minor improvements could be made by specifying the acceptable tolerance range for the refresh interval.",
+                    "proposed_requirement": "The system shall refresh the display every 60 \u00b1 5 seconds, verified through display update frequency monitoring."
+                },
+                "Atomicity": {
+                    "requirement": "The system shall refresh the display every 60 seconds.",
+                    "rating": 5,
+                    "justification": "The requirement is entirely atomic, focusing on a single distinct functionality (refreshing the display) with a specific constraint (every 60 seconds). It avoids compound statements or additional objectives.",
+                    "proposed_requirement": null
+                }
+            }
+        },
+        {
+            "requirement": "The application shall match the color of the schema set forth by Department of Homeland Security",
+            "evaluation": {
+                "Correctness": {
+                    "requirement": "The application shall match the color of the schema set forth by Department of Homeland Security",
+                    "rating": 4,
+                    "justification": "This requirement is valid and technically feasible. It defines a clear functionality and aligns with established standards. However, it lacks specificity about the type of color matching, the scope of the schema, and measurable outcomes, leading to minor areas for improvement.",
+                    "proposed_requirement": "The application shall match the color palette of the Department of Homeland Security's official branding guidelines with a color accuracy of at least 95%."
+                },
+                "Unambiguity": {
+                    "requirement": "The application shall match the color of the schema set forth by Department of Homeland Security",
+                    "rating": 2,
+                    "justification": "This requirement includes substantial vagueness, as the term 'schema' is not clearly defined, and the reference to the Department of Homeland Security does not specify which particular color or standard is being referred to. This ambiguity could lead to varying interpretations among stakeholders.",
+                    "proposed_requirement": "The application shall match the color palette defined in the Department of Homeland Security's official color standard (DHS-STD-001)"
+                },
+                "Completeness": {
+                    "requirement": "The application shall match the color of the schema set forth by Department of Homeland Security",
+                    "rating": 2,
+                    "justification": "This requirement is missing substantial details, such as the specific color scheme, the context in which the color should be matched (e.g., UI elements, background, or specific components), and any exceptions or edge cases. It lacks clarity on how to achieve the desired color matching.",
+                    "proposed_requirement": "The application shall match the color scheme specified by the Department of Homeland Security's official branding guidelines for all UI elements, with the primary color being #002664 and the secondary color being #f7f7f7, and shall display a default color scheme if the official branding guidelines are not available."
+                },
+                "Consistency": {
+                    "requirement": "The application shall match the color of the schema set forth by Department of Homeland Security",
+                    "rating": 4,
+                    "justification": "The requirement is mostly consistent and coherent, but it lacks a clear definition of what 'schema' refers to in this context. It is assumed that the requirement is referring to a specific color scheme, but this is not explicitly stated.",
+                    "proposed_requirement": "The application shall match the color scheme set forth by the Department of Homeland Security"
+                },
+                "Precision": {
+                    "requirement": "The application shall match the color of the schema set forth by Department of Homeland Security",
+                    "rating": 2,
+                    "justification": "The requirement is imprecise, using a vague term 'match the color' without defining what constitutes an acceptable color match. It also lacks any numerical values or tolerances, and the reference to the Department of Homeland Security's schema is not specific enough to ensure clarity.",
+                    "proposed_requirement": "The application shall display a color palette matching the exact RGB values specified in the Department of Homeland Security's official color schema (e.g., #FF0000 for red)"
+                },
+                "Verifiability": {
+                    "requirement": "The application shall match the color of the schema set forth by Department of Homeland Security",
+                    "rating": 2,
+                    "justification": "The requirement lacks measurable success criteria, making verification difficult or subjective. The term 'match the color' is open to interpretation, and it's unclear what specific color or shades are being referred to.",
+                    "proposed_requirement": "The application shall display a color scheme that meets the color palette standards (RGB values: 0-255) specified in the Department of Homeland Security's official branding guidelines, verified through visual inspection and color analysis tools."
+                },
+                "Atomicity": {
+                    "requirement": "The application shall match the color of the schema set forth by Department of Homeland Security",
+                    "rating": 5,
+                    "justification": "The requirement is entirely atomic, focusing on a single distinct functionality (matching the color of the schema). It avoids compound statements or additional objectives.",
+                    "proposed_requirement": null
+                }
+            }
+        },
+        {
+            "requirement": " If projected  the data must be readable.  On a 10x10 projection screen  90% of viewers must be able to read Event / Activity data from a viewing distance of 30",
+            "evaluation": {
+                "Correctness": {
+                    "requirement": "If projected the data must be readable. On a 10x10 projection screen 90% of viewers must be able to read Event / Activity data from a viewing distance of 30",
+                    "rating": 4,
+                    "justification": "This requirement is valid and technically feasible. It defines a clear functionality (data readability on a projection screen) and specifies measurable success criteria (90% of viewers can read the data from a certain distance). However, it lacks clarity on the type of data, the format of the projection, and the specific requirements for readability, which could lead to ambiguity in interpretation.",
+                    "proposed_requirement": "The projected data on a 10x10 screen must be readable by 90% of viewers from a distance of 30 feet, with clear font sizes and sufficient contrast for Event/Activity information."
+                },
+                "Unambiguity": {
+                    "requirement": "If projected the data must be readable. On a 10x10 projection screen 90% of viewers must be able to read Event / Activity data from a viewing distance of 30",
+                    "rating": 3,
+                    "justification": "This requirement is somewhat understandable, but it includes vague terms like 'readable' and '90% of viewers.' These phrases leave room for differing interpretations. Additionally, the term 'viewing distance of 30' could be clarified to specify whether it's a maximum or minimum distance.",
+                    "proposed_requirement": "The projected data must be legible on a 10x10 screen from a minimum viewing distance of 30 feet, with at least 90% of viewers able to read Event/Activity data."
+                },
+                "Completeness": {
+                    "requirement": "If projected the data must be readable. On a 10x10 projection screen 90% of viewers must be able to read Event / Activity data from a viewing distance of 30",
+                    "rating": 4,
+                    "justification": "This requirement is mostly complete, covering the necessary details about the projection screen size, readability percentage, and viewing distance. However, it lacks clarity on the data type (e.g., text, images, or a combination) and the conditions under which the data must be readable (e.g., font size, color, or contrast).",
+                    "proposed_requirement": "The projected data must be readable on a 10x10 screen from a 30-foot distance, with 90% of viewers able to read Event/Activity data, using a clear font size of at least 24 points and a color scheme with sufficient contrast."
+                },
+                "Consistency": {
+                    "requirement": "If projected the data must be readable. On a 10x10 projection screen 90% of viewers must be able to read Event / Activity data from a viewing distance of 30",
+                    "rating": 4,
+                    "justification": "The requirement is mostly consistent and logically coherent. However, it lacks a clear definition of 'readable' data, which might lead to interpretation issues. Additionally, the requirement does not specify the font size, resolution, or other display characteristics that could impact readability.",
+                    "proposed_requirement": "The projected data must be readable with a minimum font size of 24 points on a 10x10 screen from a viewing distance of 30, ensuring 90% of viewers can read Event/Activity data."
+                },
+                "Precision": {
+                    "requirement": "If projected the data must be readable. On a 10x10 projection screen 90% of viewers must be able to read Event / Activity data from a viewing distance of 30",
+                    "rating": 4,
+                    "justification": "The requirement is precise, specifying a viewing distance and a percentage of viewers that must be able to read the data. However, it lacks specific details about the data's readability, such as font size, color, or contrast. Additionally, the term 'readable' is somewhat subjective and could be interpreted differently by different people.",
+                    "proposed_requirement": "The projected data must be readable with a minimum font size of 24 points and a contrast ratio of 4.5:1, allowing 90% of viewers to read Event / Activity data from a viewing distance of 30 feet on a 10x10 projection screen."
+                },
+                "Verifiability": {
+                    "requirement": "If projected the data must be readable. On a 10x10 projection screen 90% of viewers must be able to read Event / Activity data from a viewing distance of 30",
+                    "rating": 4,
+                    "justification": "The requirement is mostly verifiable, with clear success criteria (90% readability) and a feasible verification method (viewing distance). However, the requirement lacks explicit details on what constitutes 'readable' data, which might lead to subjective interpretations.",
+                    "proposed_requirement": "The projected data must be legible to 90% of viewers from a 30-foot viewing distance on a 10x10 screen, as verified through readability testing with a sample size of 30 participants."
+                },
+                "Atomicity": {
+                    "requirement": "If projected the data must be readable. On a 10x10 projection screen 90% of viewers must be able to read Event / Activity data from a viewing distance of 30",
+                    "rating": 4,
+                    "justification": "The requirement is nearly atomic, describing a single functionality (readability of projected data) with minimal overlap or secondary objectives. However, it includes a compound statement with multiple conditions (projection screen size, viewer percentage, and viewing distance).",
+                    "proposed_requirement": "The projected data must be readable by 90% of viewers from a 30-foot distance on a 10x10 screen."
+                }
+            }
+        },
+        {
+            "requirement": " The product shall be available during normal business hours. As long as the user has access to the client PC  the system will be available 99% of the time during the first six months of operation.",
+            "evaluation": {
+                "Correctness": {
+                    "requirement": "The product shall be available during normal business hours. As long as the user has access to the client PC the system will be availability 99% of the time during the first six months of operation.",
+                    "rating": 4,
+                    "justification": "This requirement is valid and technically feasible. It defines a clear functionality (system availability) and specifies measurable success criteria (99% availability during the first six months). However, it lacks clarity on what constitutes 'normal business hours' and does not account for potential technical errors or inconsistencies with established standards.",
+                    "proposed_requirement": "The product shall be available from 9 AM to 5 PM, Monday through Friday, with a system availability of 99% during the first six months of operation."
+                },
+                "Unambiguity": {
+                    "requirement": "The product shall be available during normal business hours. As long as the user has access to the client PC the system will be available 99% of the time during the first six months of operation.",
+                    "rating": 4,
+                    "justification": "This requirement is mostly clear and allows for only one reasonable interpretation. However, the term 'normal business hours' might be subjective and could vary among stakeholders. Additionally, the phrase 'as long as the user has access to the client PC' could be interpreted in different ways, but it is clear that the system's availability is dependent on this condition.",
+                    "proposed_requirement": "The product shall be available from 9 AM to 5 PM, Monday through Friday. The system will be available 99% of the time during the first six months of operation, provided the user has stable access to the client PC."
+                },
+                "Completeness": {
+                    "requirement": "The product shall be available during normal business hours. As long as the user has access to the client PC the system will be available 99% of the time during the first six months of operation.",
+                    "rating": 4,
+                    "justification": "This requirement is mostly complete, covering the necessary details about the system's availability during normal business hours and the expected uptime during the first six months. However, it lacks clarity on what constitutes 'normal business hours' and does not specify any conditions or constraints for system unavailability.",
+                    "proposed_requirement": "The product shall be available from 9:00 AM to 5:00 PM, Monday through Friday, and will be available 99% of the time during the first six months of operation, excluding scheduled maintenance windows and unforeseen technical issues."
+                },
+                "Consistency": {
+                    "requirement": "The product shall be availability during normal business hours. As long as the user has access to the client PC the system will be available 99% of the time during the first six months of operation.",
+                    "rating": 4,
+                    "justification": "The requirement is mostly consistent, with a clear statement about the product's availability during normal business hours. However, the second part of the requirement introduces a specific percentage (99%) and a time frame (first six months of operation), which could be considered a deviation in detail and terminology. Nevertheless, the logical flow is coherent, and the requirement maintains a consistent level of detail throughout.",
+                    "proposed_requirement": null
+                },
+                "Precision": {
+                    "requirement": "The product shall be available during normal business hours. As long as the user has access to the client PC the system will be available 99% of the time during the first six months of operation.",
+                    "rating": 4,
+                    "justification": "The requirement is precise, specifying a percentage value for system availability and a specific time frame. However, it lacks exact details about normal business hours, which could be interpreted differently. Additionally, the requirement could be more concise by removing the phrase 'As long as the user has access to the client PC'.",
+                    "proposed_requirement": "The product shall be available 99% of the time during normal business hours (Monday to Friday, 9am to 5pm) during the first six months of operation."
+                },
+                "Verifiability": {
+                    "requirement": "The product shall be available during normal business hours. As long as the user has access to the client PC the system will be available 99% of the time during the first six months of operation.",
+                    "rating": 4,
+                    "justification": "The requirement is mostly verifiable, with clear success criteria (99% availability) and a feasible verification method (monitoring system uptime). However, the requirement lacks explicit definition of 'normal business hours', which might lead to interpretation issues.",
+                    "proposed_requirement": "The product shall be available from 8:00 AM to 5:00 PM, Monday through Friday, and 99% of the time during the first six months of operation, verified through system uptime monitoring and client feedback."
+                },
+                "Atomicity": {
+                    "requirement": "The product shall be available during normal business hours. As long as the user has access to the client PC the system will be availability 99% of the time during the first six months of operation.",
+                    "rating": 2,
+                    "justification": "The requirement includes compound statements: the first part specifies the product's availability during normal business hours, while the second part introduces a specific metric (99% availability) and a time constraint (first six months of operation). This makes it difficult to address or test independently.",
+                    "proposed_requirement": "The product shall be available during normal business hours. The system shall achieve 99% availability during the first six months of operation."
+                }
+            }
+        },
+        {
+            "requirement": " If projected  the data must be understandable. On a 10x10 projection screen  90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100",
+            "evaluation": {
+                "Correctness": {
+                    "requirement": "If projected the data must be understandable. On a 10x10 projection screen 90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100",
+                    "rating": 4,
+                    "justification": "This requirement is valid and technically feasible. It defines a clear functionality (data understandability on a projection screen) and specifies measurable success criteria (90% of viewers can determine events or activities in current time). However, it lacks clarity on the type of data, the specific events or activities, and the criteria for determining current time, which could lead to minor areas for improvement.",
+                    "proposed_requirement": "The projected data must be understandable by 90% of viewers from a 100-foot distance on a 10x10 screen, accurately depicting events or activities in real-time."
+                },
+                "Unambiguity": {
+                    "requirement": "If projected the data must be understandable. On a 10x10 projection screen 90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100",
+                    "rating": 2,
+                    "justification": "This requirement includes substantial vagueness, unclear phrasing, and subjective terminology that causes significant confusion. The term 'understandable' is subjective and open to multiple interpretations. Additionally, the phrase 'determine that Events or Activities are occuring in current time' is unclear and could be interpreted in different ways.",
+                    "proposed_requirement": "The projected data on a 10x10 screen must be legible from 100 feet, allowing 90% of viewers to identify Events or Activities in real-time."
+                },
+                "Completeness": {
+                    "requirement": "If projected the data must be understandable. On a 10x10 projection screen 90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100",
+                    "rating": 4,
+                    "justification": "This requirement is mostly complete, covering the necessary details about the projection screen size, viewer percentage, and viewing distance. However, it lacks clarity on what 'understandable' means in this context, and it does not specify the type of data being projected or the conditions under which the data should be displayed.",
+                    "proposed_requirement": "The projected data must be clear and easily interpretable by 90% of viewers from a 100-foot distance on a 10x10 screen, indicating current Events or Activities in real-time."
+                },
+                "Consistency": {
+                    "requirement": "If projected the data must be understandable. On a 10x10 projection screen 90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100",
+                    "rating": 4,
+                    "justification": "The requirement is mostly consistent and logically coherent. However, it includes minor inconsistencies in terminology and detail. The use of 'If projected' as a condition is unclear, and the requirement could be more precise about what 'understandable' means in this context. Additionally, the requirement could benefit from more specific details about the data and the projection screen.",
+                    "proposed_requirement": "The projected data must be clearly legible and understandable from a 10x10 screen at a viewing distance of 100. At least 90% of viewers must be able to determine that Events or Activities are occurring in real-time."
+                },
+                "Precision": {
+                    "requirement": "If projected the data must be understandable. On a 10x10 projection screen 90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100",
+                    "rating": 4,
+                    "justification": "The requirement is precise, specifying a viewing distance, screen size, and a percentage of viewers that must be able to understand the data. However, it lacks specific details about what constitutes 'understandable' data, and the requirement could be further clarified by specifying the exact criteria for determining if events or activities are occurring in current time.",
+                    "proposed_requirement": "If projected, the data must be legible and clearly indicate events or activities occurring in current time, with 90% of viewers able to determine this from a 10x10 projection screen at a viewing distance of 100 feet."
+                },
+                "Verifiability": {
+                    "requirement": "If projected the data must be understandable. On a 10x10 projection screen 90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100",
+                    "rating": 4,
+                    "justification": "The requirement is mostly verifiable, with clear success criteria (90% of viewers can determine events or activities in current time). However, the requirement lacks explicit definition of what 'understandable' means, and the verification method is not clearly stated. The requirement also assumes a specific projection screen size and viewing distance, which might limit its applicability.",
+                    "proposed_requirement": "The projected data shall be legible and understandable by 90% of viewers from a 100-foot viewing distance on a 10x10 projection screen, verified through usability testing with a sample size of 30 participants."
+                },
+                "Atomicity": {
+                    "requirement": "If projected the data must be understandable. On a 10x10 projection screen 90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100",
+                    "rating": 4,
+                    "justification": "The requirement is nearly atomic, describing a single functionality (data understandability on a projection screen) with minimal overlap or secondary objectives. However, it includes a compound statement with multiple conditions (projection screen size, viewer percentage, and viewing distance) that could be better expressed as separate requirements for clarity and testability.",
+                    "proposed_requirement": "The projected data must be understandable from a 10x10 screen at 100 viewing distance."
+                }
+            }
+        },
+        {
+            "requirement": "The product shall ensure that it can only be accessed by authorized users.  The product will be able to distinguish between authorized and unauthorized users in all access attempts",
+            "evaluation": {
+                "Correctness": {
+                    "requirement": "The product shall ensure that it can only be accessed by authorized users.  The product will be able to distinguish between authorized and unauthorized users in all access attempts",
+                    "rating": 5,
+                    "justification": "This requirement is completely valid, technically sound, and feasible within the context of current security practices. It defines a clear functionality (access control), aligns with established standards for security, and specifies a clear distinction between authorized and unauthorized users. The requirement is also free from errors and consistent with domain knowledge.",
+                    "proposed_requirement": null
+                },
+                "Unambiguity": {
+                    "requirement": "The product shall ensure that it can only be accessed by authorized users.  The product will be able to distinguish between authorized and unauthorized users in all access attempts",
+                    "rating": 4,
+                    "justification": "This requirement is mostly clear and allows for only one reasonable interpretation. However, the term 'all access attempts' could be considered somewhat vague, as it does not specify whether this includes attempts through different interfaces, APIs, or other means. Nevertheless, the requirement is generally understandable and does not contain subjective or ambiguous language.",
+                    "proposed_requirement": "The product shall ensure that it can only be accessed by authorized users, and shall correctly identify and deny access to unauthorized users in all access attempts, including web, API, and other interfaces."
+                },
+                "Completeness": {
+                    "requirement": "The product shall ensure that it can only be accessed by authorized users.  The product will be able to distinguish between authorized and unauthorized users in all access attempts",
+                    "rating": 4,
+                    "justification": "This requirement is mostly complete, covering the necessary details about access control and user authentication. However, it lacks specific information about the authentication methods (e.g., username/password, biometric, multi-factor) and the conditions under which access is granted or denied.",
+                    "proposed_requirement": "The product shall ensure that it can only be accessed by authorized users through username/password authentication, biometric verification (fingerprint or facial recognition), or multi-factor authentication. The product will be able to distinguish between authorized and unauthorized users in all access attempts, enforcing a session timeout after 10 minutes of inactivity."
+                },
+                "Consistency": {
+                    "requirement": "The product shall ensure that it can only be accessed by authorized users.  The product will be able to distinguish between authorized and unauthorized users in all access attempts",
+                    "rating": 5,
+                    "justification": "The requirement is entirely consistent, with no contradictions or logical issues. It maintains uniform terminology ('authorized users,' 'access attempts') and aligns with a coherent logical flow. The requirement clearly states the product's ability to distinguish between authorized and unauthorized users, ensuring a consistent level of detail throughout.",
+                    "proposed_requirement": null
+                },
+                "Precision": {
+                    "requirement": "The product shall ensure that it can only be accessed by authorized users.  The product will be able to distinguish between authorized and unauthorized users in all access attempts",
+                    "rating": 4,
+                    "justification": "The requirement is precise, specifying the product's access control behavior. However, it lacks specific details about the authorization mechanism, such as the type of authentication or authorization protocols used. The requirement also uses a vague term 'all access attempts' without defining what constitutes an access attempt.",
+                    "proposed_requirement": "The product shall ensure that it can only be accessed by authorized users via multi-factor authentication, and shall correctly distinguish between authorized and unauthorized users in all login attempts."
+                },
+                "Verifiability": {
+                    "requirement": "The product shall ensure that it can only be accessed by authorized users.  The product will be able to distinguish between authorized and unauthorized users in all access attempts",
+                    "rating": 4,
+                    "justification": "The requirement is mostly verifiable, with clear success criteria (ensuring access only by authorized users) and feasible verification methods (distinguishing between authorized and unauthorized users in all access attempts). However, minor improvements are possible to make the requirement more explicit and objective.",
+                    "proposed_requirement": "The product shall authenticate users using a secure authentication mechanism and deny access to unauthorized users in all access attempts, verified through penetration testing and security audits."
+                },
+                "Atomicity": {
+                    "requirement": "The product shall ensure that it can only be accessed by authorized users.  The product will be able to distinguish between authorized and unauthorized users in all access attempts",
+                    "rating": 4,
+                    "justification": "The requirement is nearly atomic, describing a single functionality (access control) with minimal overlap or secondary objectives. However, it includes a minor compound phrasing (two separate sentences) that could be rephrased for clarity.",
+                    "proposed_requirement": "The product shall ensure that only authorized users can access it, distinguishing between authorized and unauthorized users in all access attempts."
+                }
+            }
+        },
+        {
+            "requirement": "The product shall be intuitive and self-explanatory.  ",
+            "evaluation": {
+                "Correctness": {
+                    "requirement": "The product shall be intuitive and self-explanatory.",
+                    "rating": 4,
+                    "justification": "This requirement is valid and aligns with established standards for user experience. However, it lacks specificity about what 'intuitive' and 'self-explanatory' mean in terms of measurable outcomes or technical feasibility. It does not specify the scope of user interaction or the expected user behavior.",
+                    "proposed_requirement": "The product shall provide clear and concise onboarding, with a 90% user success rate in completing primary tasks within the first hour of use."
+                },
+                "Unambiguity": {
+                    "requirement": "The product shall be intuitive and self-explanatory.",
+                    "rating": 1,
+                    "justification": "This requirement is highly ambiguous as it uses subjective terms like 'intuitive' and 'self-explanatory,' which are open to multiple interpretations. Stakeholders could have conflicting understandings of what is expected.",
+                    "proposed_requirement": "The product shall display clear, concise instructions and provide visual cues for each feature and function."
+                },
+                "Completeness": {
+                    "requirement": "The product shall be intuitive and self-explanatory.",
+                    "rating": 2,
+                    "justification": "This requirement is missing substantial details, such as the specific features or functionalities that should be intuitive and self-explanatory. It lacks clarity on what aspects of the product's user experience should meet these criteria.",
+                    "proposed_requirement": "The product shall have an intuitive and self-explanatory user interface, with clear navigation, concise instructions, and contextual help for each feature, ensuring that users can easily understand and utilize the product's functionality."
+                },
+                "Consistency": {
+                    "requirement": "The product shall be intuitive and self-explanatory.",
+                    "rating": 2,
+                    "justification": "The requirement is somewhat vague and lacks specific details about what 'intuitive' and 'self-explanatory' mean in the context of the product. This ambiguity could lead to inconsistent interpretations and potential logical incompatibilities.",
+                    "proposed_requirement": "The product shall provide clear and concise user interfaces, with intuitive navigation and contextual help features to facilitate user understanding."
+                },
+                "Precision": {
+                    "requirement": "The product shall be intuitive and self-explanatory.",
+                    "rating": 1,
+                    "justification": "The requirement is highly imprecise, using vague terms like 'intuitive' and 'self-explanatory' without defining what constitutes an acceptable user experience. It lacks any numerical values or tolerances.",
+                    "proposed_requirement": "The product shall provide clear and concise instructions, with a user interface that requires no more than 2 minutes of training to understand its basic functionality."
+                },
+                "Verifiability": {
+                    "requirement": "The product shall be intuitive and self-explanatory.",
+                    "rating": 2,
+                    "justification": "The requirement is subjective and lacks measurable success criteria. Terms like 'intuitive' and 'self-explanatory' are open to interpretation and cannot be tested or verified objectively.",
+                    "proposed_requirement": "The product shall achieve a user interface satisfaction score of at least 90 on the User Interface Satisfaction (UIS) survey with a sample size of 50 users."
+                },
+                "Atomicity": {
+                    "requirement": "The product shall be intuitive and self-explanatory.",
+                    "rating": 2,
+                    "justification": "The requirement includes compound statements (intuitive and self-explanatory) that describe a subjective user experience, making it difficult to define or test independently.",
+                    "proposed_requirement": "The product shall provide clear and concise user interface feedback."
+                }
+            }
+        },
+        {
+            "requirement": "The product shall respond fast to keep up-to-date data in the display.",
+            "evaluation": {
+                "Correctness": {
+                    "requirement": "The product shall respond fast to keep up-to-date data in the display.",
+                    "rating": 4,
+                    "justification": "This requirement is valid and technically feasible. It defines a clear functionality (fast response to keep data up-to-date) and aligns with established standards for user experience. However, it lacks specificity about the exact performance metrics (e.g., response time, data refresh rate) and conditions (e.g., network connectivity, system load) that would make it more precise and verifiable.",
+                    "proposed_requirement": "The product shall respond within 500ms to keep data up-to-date in the display under normal network conditions."
+                },
+                "Unambiguity": {
+                    "requirement": "The product shall respond fast to keep up-to-date data in the display.",
+                    "rating": 2,
+                    "justification": "This requirement includes substantial vagueness, specifically the term 'fast,' which is subjective and open to multiple interpretations. Stakeholders could have differing understandings of what is expected in terms of response time.",
+                    "proposed_requirement": "The product shall respond within 2 seconds to keep up-to-date data in the display."
+                },
+                "Completeness": {
+                    "requirement": "The product shall respond fast to keep up-to-date data in the display.",
+                    "rating": 2,
+                    "justification": "This requirement is missing substantial details, such as the expected response time, the conditions under which the product should respond fast, and the criteria for determining 'fast' response. It lacks clarity on what constitutes 'up-to-date' data and how it should be displayed.",
+                    "proposed_requirement": "The product shall respond within 1 second to update data in the display in real-time, ensuring that all changes are reflected immediately and accurately."
+                },
+                "Consistency": {
+                    "requirement": "The product shall respond fast to keep up-to-date data in the display.",
+                    "rating": 2,
+                    "justification": "The requirement has a significant inconsistency in terminology. The term 'fast' is subjective and does not provide a clear measure of response time, which could lead to confusion about the expected performance.",
+                    "proposed_requirement": "The product shall respond within 1 second to keep up-to-date data in the display."
+                },
+                "Precision": {
+                    "requirement": "The product shall respond fast to keep up-to-date data in the display.",
+                    "rating": 2,
+                    "justification": "The requirement has significant imprecision, using vague terms like 'fast' without defining what constitutes an acceptable response time. It lacks any numerical values or tolerances.",
+                    "proposed_requirement": "The product shall respond to user requests within 1 second to ensure up-to-date data in the display."
+                },
+                "Verifiability": {
+                    "requirement": "The product shall respond fast to keep up-to-date data in the display.",
+                    "rating": 2,
+                    "justification": "The requirement lacks measurable success criteria, making verification difficult or subjective. The term 'fast' is open to interpretation and cannot be tested or verified objectively.",
+                    "proposed_requirement": "The product shall update the display with new data within 2 seconds, verified through automated performance testing with a minimum of 10 iterations."
+                },
+                "Atomicity": {
+                    "requirement": "The product shall respond fast to keep up-to-date data in the display.",
+                    "rating": 2,
+                    "justification": "The requirement includes compound phrasing, combining the need for fast response with the need to keep data up-to-date. This makes it difficult to address or test independently.",
+                    "proposed_requirement": "The product shall respond fast to user input."
+                }
+            }
+        },
+        {
+            "requirement": "The system shall have a MDI form that allows for the viewing of the graph and the data table.",
+            "evaluation": {
+                "Correctness": {
+                    "requirement": "The system shall have a MDI form that allows for the viewing of the graph and the data table.",
+                    "rating": 5,
+                    "justification": "This requirement is completely valid, technically sound, and feasible within the context of current GUI design practices. It defines a clear functionality, aligns with established standards, and specifies the necessary components for the MDI form. The requirement is free from errors and consistent with domain knowledge.",
+                    "proposed_requirement": null
+                },
+                "Unambiguity": {
+                    "requirement": "The system shall have a MDI form that allows for the viewing of the graph and the data table.",
+                    "rating": 4,
+                    "justification": "This requirement is mostly clear and allows for only one reasonable interpretation. However, the term 'MDI form' might be unfamiliar to some stakeholders, potentially causing minor confusion. The requirement specifies the expected behavior, but the terminology used could be more precise.",
+                    "proposed_requirement": "The system shall have a Multiple Document Interface (MDI) form displaying both a graph and a data table."
+                },
+                "Completeness": {
+                    "requirement": "The system shall have a MDI form that allows for the viewing of the graph and the data table.",
+                    "rating": 3,
+                    "justification": "This requirement is mostly complete, as it describes the desired user interface component (MDI form) and its intended functionality (viewing a graph and a data table). However, it lacks details about the conditions under which the MDI form is activated, the types of graphs and data tables supported, or any constraints on user interaction.",
+                    "proposed_requirement": "The system shall have a Multiple Document Interface (MDI) form that allows users to view and interact with a variety of graph types (e.g., line, bar, pie) and data tables (e.g., sorted, filtered, grouped), with the ability to toggle between graph and table views and apply filters to both."
+                },
+                "Consistency": {
+                    "requirement": "The system shall have a MDI form that allows for the viewing of the graph and the data table.",
+                    "rating": 4,
+                    "justification": "The requirement is mostly consistent and logically coherent. However, it lacks a clear definition of what 'MDI form' means in this context, which could lead to confusion. Additionally, the requirement does not specify any constraints or behaviors related to the viewing of the graph and data table.",
+                    "proposed_requirement": "The system shall have a Multiple Document Interface (MDI) form that allows users to simultaneously view a graph and a data table."
+                },
+                "Precision": {
+                    "requirement": "The system shall have a MDI form that allows for the viewing of the graph and the data table.",
+                    "rating": 2,
+                    "justification": "The requirement is imprecise, using vague terms like 'MDI form' and 'allows for the viewing' without defining what constitutes an acceptable user interface or functionality. It lacks any specific details about the form's layout, the graph's appearance, or the data table's structure.",
+                    "proposed_requirement": "The system shall have a Multiple Document Interface (MDI) form with a graph display and a data table, both of which shall be accessible and viewable within the form."
+                },
+                "Verifiability": {
+                    "requirement": "The system shall have a MDI form that allows for the viewing of the graph and the data table.",
+                    "rating": 4,
+                    "justification": "The requirement is mostly verifiable, with clear success criteria (the presence of a MDI form with graph and data table views). However, it lacks explicit details on the verification methods, such as testing standards or acceptance criteria.",
+                    "proposed_requirement": "The system shall have a Multiple Document Interface (MDI) form with graph and data table views, verified through visual inspection and user testing with a sample size of 10 users."
+                },
+                "Atomicity": {
+                    "requirement": "The system shall have a MDI form that allows for the viewing of the graph and the data table.",
+                    "rating": 2,
+                    "justification": "The requirement includes compound statements or objectives, making it difficult to address or test independently. It describes two distinct functionalities (viewing the graph and viewing the data table) within a single statement.",
+                    "proposed_requirement": "The system shall have a MDI form that allows for the viewing of the graph."
+                }
+            }
+        },
+        {
+            "requirement": "The system shall display Events in a vertical table by time.",
+            "evaluation": {
+                "Correctness": {
+                    "requirement": "The system shall display Events in a vertical table by time.",
+                    "rating": 5,
+                    "justification": "This requirement is completely valid, technically sound, and feasible within the context of current GUI design practices. It defines a clear functionality, aligns with established practices, and specifies a straightforward display requirement.",
+                    "proposed_requirement": null
+                },
+                "Unambiguity": {
+                    "requirement": "The system shall display Events in a vertical table by time.",
+                    "rating": 5,
+                    "justification": "This requirement is written with completely clear and precise language, leaving no room for misinterpretation. All terms are specific, and the expected behavior is unambiguous. The requirement clearly states the layout (vertical table), the data to be displayed (Events), and the sorting criteria (by time).",
+                    "proposed_requirement": null
+                },
+                "Completeness": {
+                    "requirement": "The system shall display Events in a vertical table by time.",
+                    "rating": 4,
+                    "justification": "This requirement is mostly complete, covering the necessary details about the output (vertical table) and the sorting criteria (by time). However, it lacks information about the input (what constitutes an Event), the conditions under which the table is displayed, and the constraints on the table's appearance or behavior.",
+                    "proposed_requirement": "The system shall display Events in a vertical table sorted by time, where Events are user-generated notifications, and the table shall be updated in real-time and scrollable for large datasets."
+                },
+                "Consistency": {
+                    "requirement": "The system shall display Events in a vertical table by time.",
+                    "rating": 5,
+                    "justification": "The requirement is entirely consistent, with no contradictions or logical issues. It maintains uniform terminology ('Events,' 'table') and aligns with a coherent logical flow.",
+                    "proposed_requirement": null
+                },
+                "Precision": {
+                    "requirement": "The system shall display Events in a vertical table by time.",
+                    "rating": 4,
+                    "justification": "The requirement is precise, specifying the exact format for displaying Events. However, it lacks specific details about the table's layout, such as the number of columns, font sizes, or any tolerances for the time display. It also avoids unnecessary elaboration.",
+                    "proposed_requirement": null
+                },
+                "Verifiability": {
+                    "requirement": "The system shall display Events in a vertical table by time.",
+                    "rating": 4,
+                    "justification": "The requirement is mostly verifiable, with clear success criteria (displaying Events in a vertical table by time). However, it lacks explicit details on the verification methods, such as what constitutes a 'vertical table' or how the time-based ordering should be implemented.",
+                    "proposed_requirement": "The system shall display Events in a vertical table sorted by time, with a clear timestamp for each event, verified through visual inspection and user testing."
+                },
+                "Atomicity": {
+                    "requirement": "The system shall display Events in a vertical table by time.",
+                    "rating": 5,
+                    "justification": "The requirement is entirely atomic, focusing on a single distinct functionality (displaying events in a vertical table by time). It avoids compound statements or additional objectives.",
+                    "proposed_requirement": null
+                }
+            }
+        }
+    ]
+}

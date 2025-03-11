@@ -1,0 +1,269 @@
+{
+    "Correctness": [
+        [
+            "1: The Requirement does not define a system function.",
+            "2: The Requirement is partially correct but incorporates terms like \"must\".",
+            "3: The Requirement does correctly define a system function with avoiding terms like \"must\", and instead using \"shall\", \"will\", \"should\"." 
+        ],
+        [
+            "**1**: Incorrect or impractical; misaligned with system goals.",
+            "**2**: Partially aligned; feasibility is unclear or not fully justified.",
+            "**3**: Fully aligned, feasible, and testable."
+        ],
+        [
+            "**1**: The requirement is incorrect, impractical, or misaligned with system goals; it contains errors or contradicts established domain knowledge.",
+            "**2**: The requirement is partially aligned with system goals, but its feasibility or correctness is unclear or partially justified.",
+            "**3**: The requirement is fully aligned, technically feasible, and consistent with domain knowledge."
+        ],
+        [
+            "**1 - Very Poor**: The requirement contains clear errors, logical flaws, or violates commonly understood domain principles.",
+            "**2 - Poor**: The requirement includes significant inaccuracies or misstatements that undermine its validity.",
+            "**3 - Average**: The requirement is mostly valid but contains minor logical flaws, errors, or unclear assumptions.",
+            "**4 - Good**: The requirement is valid and logically sound, with only minor improvements possible in clarity or assumptions.",
+            "**5 - Excellent**: The requirement is entirely valid, logically sound, and free of factual errors or flawed reasoning."
+        ],
+        [
+            "**1 - Very Poor**: The requirement is entirely incorrect or irrelevant.",
+            "**2 - Poor**: The requirement has significant errors or does not reflect a legitimate need.",
+            "**3 - Average**: The requirement is mostly correct but contains minor inaccuracies.",
+            "**4 - Good**: The requirement is accurate with very few issues.",
+            "**5 - Excellent**: The requirement is entirely correct and aligns perfectly with established knowledge."
+        ],
+        [
+            "**1 - Very Poor**: The requirement is invalid, describing a function or need that is infeasible, erroneous, or inconsistent with established domain knowledge.",  
+            "**2 - Poor**: The requirement contains significant inaccuracies, errors, or misalignments with technical feasibility or domain standards.",  
+            "**3 - Average**: The requirement is mostly valid but has minor technical errors, feasibility concerns, or unclear assumptions.",  
+            "**4 - Good**: The requirement is valid, technically feasible, and aligns well with established standards, with only minor areas for improvement.", 
+            "**5 - Excellent**: The requirement is completely valid, technically sound, and fully aligned with domain standards or commonly accepted principles."  
+        ]
+    ],
+    "Unambiguity": [
+        [
+            "1: Due to the requirement being unclear and difficult to understand, the requirement leads to several different interpretations.",
+            "2: Overall, the requirement is clear and comprehensible, but it does have minor details that could be interpreted in multiple ways.",
+            "3: The Requirement is written in a comprehensible manner and leaves no room for interpretation."
+        ],
+        [
+            "**1**: Unclear or open to multiple interpretations.",
+            "**2**: Mostly clear, with minor ambiguities.",
+            "**3**: Entirely clear, leaving no room for misinterpretation."
+        ],
+        [
+            "**1**: The requirement is unclear or open to multiple interpretations, with vague or subjective language.",
+            "**2**: The requirement is mostly clear, but minor ambiguities or inconsistencies remain.",
+            "**3**: The requirement is entirely clear, with no room for misinterpretation or subjective understanding."
+
+        ],
+        [
+            "**1 - Very Poor**: The requirement is highly ambiguous, leading to multiple conflicting or unclear interpretations.",
+            "**2 - Poor**: The requirement has substantial ambiguity due to unclear phrasing, terminology, or structure.",
+            "**3 - Average**: The requirement is moderately clear but contains terms or phrasing that leave room for differing interpretations.",
+            "**4 - Good**: The requirement is mostly unambiguous, with only slight potential for confusion in certain areas.",
+            "**5 - Excellent**: The requirement is completely unambiguous, with clear and precise language that leaves no room for misinterpretation."
+        ],
+        [
+            "**1 - Very Poor**: The requirement is extremely ambiguous and open to multiple interpretations.",
+            "**2 - Poor**: The requirement has significant ambiguity and causes confusion.",
+            "**3 - Average**: The requirement is somewhat clear but has minor ambiguity.",
+            "**4 - Good**: The requirement is mostly clear and precise with minimal chance of misinterpretation.",
+            "**5 - Excellent**: The requirement is completely clear, precise, and allows only one interpretation."
+        ],
+        [
+            "**1 - Very Poor**: The requirement is highly ambiguous and open to multiple conflicting interpretations.",
+            "**2 - Poor**: The requirement includes substantial vagueness, unclear phrasing, or subjective terminology that causes significant confusion.",
+            "**3 - Average**: The requirement is generally understandable but includes minor ambiguities or subjective terms that could cause varying interpretations.",
+            "**4 - Good**: The requirement is mostly clear and allows for only one reasonable interpretation, with minimal room for confusion.",
+            "**5 - Excellent**: The requirement is written in completely clear, precise language, ensuring a single, universally understood interpretation."
+        ]
+    ],
+    "Completeness": [
+        [
+            "1: The Requirement severely lacks any form of context which makes the requirement not comprehensible and incomplete.",
+            "2: The Requirement does cover the necessary information, however it is missing minor details.",
+            "3: The Requirement includes all relevant information and covers all aspects in their entirety."
+        ],
+        [
+            "**1**: Critical information is missing.",
+            "**2**: Includes most necessary details but with minor omissions.",
+            "**3**: Fully comprehensive and detailed."
+        ],
+        [
+            "**1**: Critical details are missing, and the requirement cannot be fully understood or implemented.",
+            "**2**: Most necessary details are present, but minor omissions reduce the completeness of the requirement.",
+            "**3**: All necessary details are included, covering conditions, constraints, and scenarios comprehensively."
+        ],
+        [
+            "**1 - Very Poor**: The requirement is significantly incomplete, missing essential information, conditions, or constraints, making implementation or verification impossible.",
+            "**2 - Poor**: The requirement has substantial gaps in necessary details, leaving significant ambiguity about the scope or functionality.",
+            "**3 - Average**: The requirement includes some necessary details but misses key conditions, inputs, or outputs, or lacks edge case considerations.",
+            "**4 - Good**: The requirement is mostly complete but has minor omissions or lacks detail about edge cases or constraints.",
+            "**5 - Excellent**: The requirement is fully complete, describing all necessary information, conditions, inputs, outputs, and relevant"
+        ],
+        [
+            "**1 - Very Poor**: The requirement is severely incomplete and lacks essential information.",
+            "**2 - Poor**: The requirement is incomplete and missing major details.",
+            "**3 - Average**: The requirement covers basic aspects but omits some details.",
+            "**4 - Good**: The requirement is mostly complete, with minor information gaps.",
+            "**5 - Excellent**: The requirement is fully complete, covering all necessary details, conditions, and scenarios."
+        ],
+        [
+            "**1 - Very Poor**: The requirement lacks critical details, omitting essential inputs, outputs, conditions, or constraints necessary for understanding.",
+            "**2 - Poor**: The requirement is missing substantial details, leaving significant gaps in understanding its intended functionality.",
+            "**3 - Average**: The requirement provides most of the necessary information but lacks some details, such as conditions or edge cases.",
+            "**4 - Good**: The requirement is mostly complete, covering the majority of necessary details, with minor improvements needed for clarity.",
+            "**5 - Excellent**: The requirement is fully complete, including all necessary inputs, outputs, conditions, and constraints, leaving no gaps in understanding."
+        ]
+    ],
+    "Consistency": [
+        [
+            "1: The Requirement heavily contradicts itself or shows sudden shifts in specificity.",
+            "2: The Requirement as a whole is coherent but shows minor inconsistencies in terms of the level of detail.",
+            "3: The Requirement is well-written with a steady level of detail, is internally coherent and consistent throughout."
+        ],
+        [
+            "**1**: Contains significant contradictions.",
+            "**2**: Mostly consistent, with minor issues.",
+            "**3**: Fully consistent and coherent."
+        ],
+        [
+            "**1**: The requirement contains significant contradictions, inconsistencies, or shifts in detail or terminology.",
+            "**2**: The requirement is mostly consistent, but minor issues or variations in detail or terminology exist.",
+            "**3**: The requirement is fully consistent, with coherent logic and uniform terminology throughout."
+        ],
+        [
+            "**1 - Very Poor**: The requirement is internally contradictory or illogical, making implementation impossible.",
+            "**2 - Poor**: The requirement has noticeable inconsistencies in logic or terminology, leading to potential confusion.",
+            "**3 - Average**: The requirement is mostly consistent but has minor issues with logical alignment or consistent terminology.",
+            "**4 - Good**: The requirement is internally consistent with only very minor discrepancies in phrasing or logic.",
+            "**5 - Excellent**: The requirement is entirely self-consistent, with no contradictions, logical issues, or inconsistencies in terminology."
+        ],
+        [
+            "**1 - Very Poor**: The requirement contains significant contradictions or logical errors.",
+            "**2 - Poor**: The requirement has notable inconsistencies or unclear logic.",
+            "**3 - Average**: The requirement is mostly consistent but has minor logical flaws.",
+            "**4 - Good**: The requirement is consistent with very minimal concerns.",
+            "**5 - Excellent**: The requirement is entirely consistent and logically sound."
+        ],
+        [
+            "**1 - Very Poor**: The requirement contains internal contradictions, inconsistent terminology, or logically conflicting statements.",
+            "**2 - Poor**: The requirement has significant inconsistencies or logical incompatibilities that undermine its clarity and coherence.",
+            "**3 - Average**: The requirement is mostly consistent but includes minor inconsistencies in terminology or logical flow.",
+            "**4 - Good**: The requirement is coherent and logically consistent, with only minimal deviations in terminology or details.",
+            "**5 - Excellent**: The requirement is entirely consistent, maintaining logical coherence, aligned terminology, and uniform levels of detail throughout." 
+        ]
+    ],
+    "Precision": [
+        [
+            "1: The Requirement lacks specific values or does not apply units nor ranges to them, it is not clear at all what the requirement defines.",
+            "2: The Requirement does define specific values, but does not apply tolerance where it is logically applicable.",
+            "3: The Requirement does clearly state precise values, applying a tolerance range to the value where it is logical."
+        ],
+        [
+            "**1**: Lacks specificity or clarity.",
+            "**2**: Provides specifics but lacks tolerances where applicable.",
+            "**3**: Fully precise, with appropriate tolerances."
+        ],
+        [
+            "**1**: The requirement lacks specificity, with vague or unclear values, tolerances, or constraints.",
+            "**2**: The requirement provides specific details but lacks tolerances or units where applicable.",
+            "**3**: The requirement is fully precise, with exact values, tolerances, and constraints clearly stated."
+        ],
+        [
+            "**1 - Very Poor**: The requirement is vague or subjective, lacks explicit parameters, and is overly complex or ambiguous.",
+            "**2 - Poor**: The requirement is somewhat precise but includes subjective terms or lacks important quantitative details.",
+            "**3 - Average**: The requirement is moderately precise but could benefit from clearer parameters or avoidance of complexity.",
+            "**4 - Good**: The requirement is mostly precise, with minor improvements needed in clarity or quantitative details.",
+            "**5 - Excellent**: The requirement is fully precise, with clear, explicit, and unambiguous details."
+        ],
+        [
+            "**1 - Very Poor**: The requirement is vague and lacks specific, measurable details.",
+            "**2 - Poor**: The requirement is imprecise with significant generalizations or unclear terms.",
+            "**3 - Average**: The requirement has moderate precision but lacks some specificity.",
+            "**4 - Good**: The requirement is mostly precise, with clear details and measurable attributes.",
+            "**5 - Excellent**: The requirement is extremely precise, using exact terms and measurable criteria."
+        ],
+        [
+            "**1 - Very Poor**: The requirement is highly imprecise, lacking exact values, units, or tolerances where necessary, and includes excessive redundancy.",
+            "**2 - Poor**: The requirement has significant imprecision, with vague or generalized terms and missing critical numerical details or units.",
+            "**3 - Average**: The requirement is moderately precise but includes some redundant information or lacks specific tolerances, constraints, or numerical values.",
+            "**4 - Good**: The requirement is precise, specifying exact values or constraints where necessary, with only minimal redundancy.",
+            "**5 - Excellent**: The requirement is highly precise, avoiding unnecessary elaboration, while providing exact values, units, tolerances, or constraints where applicable."
+        ]
+    ],
+    "Verifiability":[
+        [
+            "1: The Requirement cannot be tested, verification if the requirement is met is not possible at all.",
+            "2: The Requirement can be tested to a certain extent, but it is not clearly defined how the verification if the requirement is met can be achieved.",
+            "3: The Requirement is testable and confirmation if the requirement is met is possible in a logical way."
+        ],
+        [
+            "**1**: Cannot be tested.",
+            "**2**: Partially testable, but lacks clarity.",
+            "**3**: Fully testable with clear criteria."
+        ],
+        [
+            "**1**: The requirement cannot be objectively tested or measured, with unclear success or acceptance criteria.",
+            "**2**: The requirement is partially testable, but success criteria or verification methods lack clarity or specificity.",
+            "**3**: The requirement is fully testable, with explicit success criteria and clear verification methods."
+        ],
+        [
+            "**1 - Very Poor**: The requirement cannot be verified because it lacks measurable or testable criteria.",
+            "**2 - Poor**: The requirement is somewhat verifiable but lacks sufficient clarity or detail for reliable testing.",
+            "**3 - Average**: The requirement is moderately verifiable but requires additional clarification of success criteria.",
+            "**4 - Good**: The requirement is verifiable with minimal issues in clarity or specificity.",
+            "**5 - Excellent**: The requirement is fully verifiable, with clearly defined and measurable success criteria."
+        ],
+        [
+            "**1 - Very Poor**: The requirement cannot be verified or measured in any feasible way.",
+            "**2 - Poor**: The requirement is difficult to verify, with unclear or impractical criteria.",
+            "**3 - Average**: The requirement is somewhat verifiable but lacks clear success criteria.",
+            "**4 - Good**: The requirement is mostly verifiable with clear and feasible verification methods.",
+            "**5 - Excellent**: The requirement is fully verifiable, with clear, objective, and testable criteria."
+        ],
+        [
+            "**1 - Very Poor**: The requirement cannot be objectively tested, measured, or verified in any practical manner.",
+            "**2 - Poor**: The requirement lacks measurable success criteria, making verification difficult or subjective.",
+            "**3 - Average**: The requirement is generally verifiable but lacks clarity on acceptance criteria or verification methods.",
+            "**4 - Good**: The requirement is mostly verifiable, with clear success criteria and feasible verification methods, though minor improvements are possible.",
+            "**5 - Excellent**: The requirement is fully verifiable, with explicit, measurable success criteria and clearly defined verification methods (e.g., inspection, testing, analysis)."            
+        ]
+    ],
+    "Atomicity": [
+        [
+            "1: The Requirement does define multiple requirements or functions at once or severely lacks details of the defined functionalities.",
+            "2: The Requirement defines a single system functionality but lacks context regarding this function.", 
+            "3: The Requirement defines a single system function, feature or need including all relevant information concerning the"            
+        ],
+        [
+            "**1**: Defines multiple functionalities or lacks clarity in its scope.",
+            "**2**: Mostly atomic, with minor dependencies or ambiguities.",
+            "**3**: Fully atomic and self-contained."
+        ],
+        [
+            "**1**: The requirement is not atomic, combining multiple functionalities or objectives into one statement.",
+            "**2**: The requirement is mostly atomic, but minor dependencies or ambiguities reduce its focus.",
+            "**3**: The requirement is fully atomic, defining a single, distinct functionality or constraint without dependencies."
+        ],
+        [
+            "**1 - Very Poor**: The requirement describes multiple unrelated functions, is overly complex, or is heavily dependent on other requirements.",
+            "**2 - Poor**: The requirement partially addresses atomicity but contains compound statements or multiple loosely related objectives.",
+            "**3 - Average**: The requirement is moderately atomic but includes minor compound elements or unclear separation of objectives.",
+            "**4 - Good**: The requirement is mostly atomic, with minimal issues in separating objectives.",
+            "**5 - Excellent**: The requirement describes a single, specific function or capability clearly, with no compound elements or dependencies."
+        ],
+        [
+            "**1 - Very Poor**: The requirement combines multiple aspects and is highly non-atomic.",
+            "**2 - Poor**: The requirement addresses more than one issue and lacks clear focus.",
+            "**3 - Average**: The requirement is somewhat atomic but includes minor compound statements.",
+            "**4 - Good**: The requirement is mostly atomic, addressing a single aspect with minimal overlap.",
+            "**5 - Excellent**: The requirement is fully atomic, addressing one clear, indivisible aspect."
+        ],
+        [
+            "**1 - Very Poor**: The requirement addresses multiple unrelated functionalities, needs, or constraints in a single statement.",
+            "**2 - Poor**: The requirement includes compound statements or objectives, making it difficult to address or test independently.",
+            "**3 - Average**: The requirement is mostly atomic but includes minor compound phrasing or multiple related objectives.",
+            "**4 - Good**: The requirement is nearly atomic, describing a single functionality or constraint with minimal overlap or secondary objectives.",
+            "**5 - Excellent**: The requirement is entirely atomic, focusing on a single distinct functionality, need, or constraint with no compound statements."
+        ]
+    ]
+}

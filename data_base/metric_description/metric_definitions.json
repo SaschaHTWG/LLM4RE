@@ -1,0 +1,211 @@
+{
+    "Correctness": [
+        [
+            "Does the requirement define a genuine system function or need?",
+            "Is the requirement technically feasible within the system context?",
+            "Is the requirement free from logical or factual errors?"
+        ],
+        [
+            "Does the requirement align with system goals and define a legitimate need or function? Is it technically feasible and testable within the system’s context?",
+            "Focus on whether the requirement matches the system's intent. Avoid penalizing for missing specifics outside its scope."
+        ],
+        [
+            "Does the requirement define a genuine system function or need?",
+            "Is the requirement technically feasible within the system context?",
+            "Does the requirement align with the system's goals and objectives?"
+        ],
+        [
+            "Does the requirement describe a valid and logically sound behavior or functionality?",
+            "Is the requirement free from factual errors or contradictions with established domain knowledge or commonly accepted principles?",
+            "Does the requirement make sense as a standalone statement based on what is logically expected from similar systems or use cases?"            
+        ],
+        [
+            "Does the requirement reflect a legitimate need or condition?",
+            "Is the requirement free from errors or inaccuracies?",
+            "Does the requirement align with established standards or domain knowledge?"
+        ],
+        [
+            "Does the requirement define a genuine system function or need?",
+            "Is the requirement technically feasible within the system context?",
+            "Is the requirement free from errors and consistent with established standards or domain knowledge?"        
+        ]
+    ],
+    "Unambiguity": [
+        [
+            "Is the requirement clear and understandable to to its intended audience?", 
+            "Are multiple interpretations of the requirement unlikely?",
+            "Does the wording avoid subjective or vague terms?"
+        ],
+        [
+            "Is the requirement written clearly and unambiguously for all stakeholders? Are multiple interpretations unlikely?",
+            "Watch for subjective or vague language. Ensure terms are well-defined and context is provided."
+        ],
+        [
+            "Is the requirement written clearly, allowing only a single possible interpretation?",
+            "Are all terms and phrases free from subjective or vague language?",
+            "Would all stakeholders interpret the requirement consistently and without ambiguity?"
+        ],
+        [
+            "Is the requirement expressed in a manner that eliminates any possibility of multiple interpretations?",
+            "Does the requirement avoid terms, phrasing, or constructs that could introduce confusion or alternative meanings?",
+            "Can a single, clear understanding of the requirement be derived without additional explanation or assumptions?"
+        ],
+        [
+            "Can the requirement be interpreted in only one way?",
+            "Is the requirement free from vague or ambiguous language?"
+        ],
+        [
+            "Is the requirement written clearly and understandable?",
+            "Does the requirement allow only a single possible interpretation among all stakeholders?",
+            "Are all terms and phrases free from subjective or vague language?"
+        ]
+    ],
+    "Completeness": [
+        [
+            "Does this single atomic requirement include all necessary details for understanding the desired functionality??",
+            "Are all realizable types of input data, events, system environment covered?", 
+            "Are all terms defined or clearly understandable within the document?"
+        ],
+        [
+            "Does the requirement include all necessary details for understanding and implementation? Are all inputs, outputs, and interactions explicitly described?",
+            "Focus on sufficiency of detail for its intended context. Avoid excessive penalization for missing information unless critical."
+        ],
+        [
+            "Does the requirement fully describe the intended functionality or need, including all necessary inputs, outputs, and conditions?",
+            "Are all scenarios, constraints, and dependencies addressed within the requirement?",
+            "Are terms and concepts sufficiently explained to ensure full understanding by all stakeholders?"
+        ],
+        [
+            "Does the requirement specify all necessary information to describe the intended functionality or need?",  
+            "Are all relevant conditions, inputs, and outputs explicitly defined?",  
+            "Does the requirement account for potential edge cases and constraints relevant to its scope?"
+        ],
+        [
+            "Does the requirement provide all necessary information for implementation?",
+            "Are all conditions, constraints, and scenarios explicitly specified, with nothing left implied or missing?"
+        ],
+        [
+            "Does the requirement include all necessary details for understanding the desired functionality?",
+            "Are all conditions, constraints, inputs, outputs, and scenarios addressed within the requirement?"
+        ]
+    ],
+    "Consistency": [
+        [
+            "Is the requirement internally coherent and free from contradictions?",
+            "Does the requirement maintain a consistent level of detail throughout, avoiding any sudden shifts in specificity?",
+            "Are all constraints or conditions stated within the requirement logically compatible with each other?"
+        ],
+        [
+            "Is the requirement internally coherent and free from contradictions? Does it maintain a consistent level of detail throughout?",                    
+            "Watch for conflicting statements or sudden shifts in specificity. Ensure all constraints are logically compatible."
+        ],
+        [
+            "Is the requirement internally coherent and free from contradictory statements?",
+            "Does the requirement maintain a consistent level of specificity and detail throughout?",
+            "Are all conditions, constraints, and behaviors logically compatible within the requirement?"
+        ],
+        [
+            "Is the requirement internally consistent in its phrasing and logic?",  
+            "Does the requirement avoid self-contradiction or conflicting statements?",  
+            "Does the requirement follow a logical structure and maintain consistent terminology within itself?"
+        ],
+        [
+            "Does the requirement avoid contradictions within its own statement?",
+            "Is the information presented logically coherent?"
+        ],
+        [
+            "Is the requirement internally coherent and free from contradictory statements?",
+            "Does the requirement maintain a consistent level of detail and terminology throughout?",
+            "Are all conditions, constraints, and behaviors logically compatible?"
+        ]
+    ],
+    "Precision": [
+        [
+            "Does the requirement specify exact values, constraints, or conditions?",
+            "Are numerical values accompanied by units and tolerances if they are applicable?",
+            "Is any range or limit unambiguously stated?"
+        ],
+        [
+            "Does the requirement specify exact values, constraints, or conditions? Are numerical values accompanied by units and tolerances?",
+            "Focus on the clarity and specificity of values and constraints. Avoid penalizing for missing specifics outside its scope."
+        ],
+        [
+            "Does the requirement state exact values, thresholds, or constraints where applicable?",
+            "Are all numerical values accompanied by units, tolerances, or ranges?",
+            "Is the language specific enough to eliminate potential misinterpretation?"
+        ],
+        [
+            "Is the requirement free of vague or subjective terms?",  
+            "Are the requirement's parameters, values, or boundaries explicitly and quantitatively defined where applicable?",  
+            "Does the requirement avoid unnecessary complexity or ambiguity in its wording?"  
+        ],
+        [
+            "Is the requirement stated in exact, specific terms?",
+            "Does it include measurable criteria or attributes where applicable?"
+        ],
+        [
+            "Does the requirement specify exact values, tolerances, or constraints where applicable?",
+            "Are numerical values accompanied by units?",
+            "Does the requirement avoid redundant information or unnecessary elaboration?" 
+        ]
+    ],
+    "Verifiability": [
+        [
+            "How adequately can this requirement be tested, including the conditions for success or failure?",
+            "Does the requirement define acceptable performance levels, where applicable, such as accuracy, reliability, or success rates?",    
+            "Does the requirement specify clear, measurable criteria for testing?"
+        ],
+        [
+            "Can the requirement be tested effectively to confirm it is met? Is it clear what constitutes success or failure during testing?",
+            "Evaluate how well the requirement supports measurable validation criteria."
+        ],
+        [
+            "Can the requirement be objectively tested or measured to confirm whether it has been met?",
+            "Are the success criteria explicitly stated (e.g. success rate, performance thresholds)?",
+            "Is the method for determining fulfillment of the requirement sufficiently clear, including any conditions for acceptable performance?"
+        ],
+        [
+            "Is the requirement stated in a manner that allows it to be tested or measured?",  
+            "Does the requirement define specific criteria or conditions for success?",  
+            "Can verification be conducted through inspection, analysis, demonstration, or testing?"
+        ],
+        [
+            "Can the requirement be tested, measured, or inspected to confirm it has been met?",
+            "Are the success or acceptance criteria clearly defined?"
+        ],
+        [
+            "Can the requirement be objectively tested or measured to confirm it has been met?",
+            "Are the success or acceptance criteria explicitly stated?",
+            "Can verification be conducted through inspection, analysis, demonstration, or testing?"
+        ]
+    ],
+    "Atomicity": [
+        [
+            "Is the requirement all one, individual, atomic requirement, defining a single, self-contained functionality??",
+            "Is the requirement written cohesively, with all necessary details included and without merging multiple independent functionalities?",
+            "Are all included details relevant to a single functionality or constraint?"
+        ],
+        [
+            "Does the requirement define a single, self-contained functionality? Are all details relevant to that single function?",
+            "Focus on scope and avoid conflating multiple functionalities."
+        ],
+        [
+            "Is the requirement focused on a single, distinct need, functionality, or constraint?",
+            "Is the requirement self-contained, avoiding reliance on other requirements for interpretation?",
+            "Are all details relevant only to the specific functionality or constraint being described?"
+        ],
+        [
+            "Does the requirement describe a single, specific function or capability?",
+            "Is the requirement free of compound statements or multiple objectives that could be separated?",
+            "Does the requirement avoid dependencies on other requirements for its understanding or implementation?"
+        ],
+        [
+            "Does the requirement address only one single aspect or condition?",
+            "Does it avoid compound statements or multiple ideas?"
+        ],
+        [
+            "Does the requirement focus on a single, distinct need, functionality, or constraint?",
+            "Does the requirement avoid compound statements or multiple objectives?"
+        ]
+    ]
+}

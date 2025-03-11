@@ -1,0 +1,7 @@
+.venv
+.idea
+.vscode
+.chroma
+.ragatouille
+__pycache__
+data_base/last_messages/*.md

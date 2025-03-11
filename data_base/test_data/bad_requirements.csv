@@ -1,0 +1,975 @@
+,Requirement
+0,The system shall refresh the display when it feels like it.
+1,"The application should be mostly similar to the color of the schema set forth by Department of Homeland Security, but not too strict"
+2,"If projected, the data must be readable. On a 10x10 projection screen, at least one viewer must be able to read Event/Activity data from a viewing distance of 30 feet, but it's okay if they can't read it."
+3,"The product will be available most of the time. If the user has a computer, it should work, probably."
+4,"Data must be understandable, 90% of viewers from 100 feet away on a 10x10 screen must be able to tell if something is happening, on big screens."
+5,"The product shall be accessible to anyone who knows the password, which will be communicated to users through a phone call to a special hotline."
+6,The product shall be intuitive and self-explanatory. It will be understood by most people.
+7,The product should be fast
+8,"The system should have a form that can view the graph and data table, it will be cool"
+9,The system shall display Events in a table that is pretty and has a font that is easy to read.
+10,"The system shall display Events in a graph, sometime."
+11,"The Disputes System rules must be compliant with Regulation E and Regulation Z, but only if they are not in conflict with each other."
+12,"The Disputes application should keep a record of actions taken by users, it's good for auditing."
+13,Actions that modify a dispute case must be documented in a log.
+14,The Disputes System must be accessible by users.
+15,The Disputes System should not allow users to access dispute cases that are not related to their cardholder base.
+16,The disputes system will allow users to manually input dispute data through a user interface.
+17,"The Disputes System must provide access to disputes case initiation and follow-up actions, and also make sure it's good enough."
+18,The Disputes System shall provide view access capability for users who have a username starting with 'A' or 'B' or 'C' or 'D' or 'E' or 'F' or 'G' or 'H' or 'I' or 'J' or 'K' or 'L' or 'M' or 'N' or 'O' or 'P' or 'Q' or 'R' or 'S' or 'T' or 'U' or 'V' or 'W' or 'X' or 'Y' or 'Z' or 'a' or 'b' or 'c' or 'd' or 'e' or 'f' or 'g' or 'h' or 'i' or 'j' or 'k' or 'l' or 'm' or 'n' or 'o' or 'p' or 'q' or 'r' or 's' or 't' or 'u' or 'v' or 'w' or 'x' or 'y' or 'z' to the application.
+19,The Disputes System shall provide update access capability for users who know the secret password.
+20,"The Disputes System must allow users to initiate a dispute case on any transaction that belongs to a merchant, without any restrictions on the number of transactions or merchants."
+21,The Disputes System shall be able to create or initiate a ticket retrieval request. The user will receive an email with all the required information to fill out the ticket retrieval request. This request will be sent to the merchant to inquire about the validity of a transaction.
+22,The Disputes System should allow users to request receipts in any format they want.
+23,The Disputes System will not provide original receipts to users who are not part of the company's internal network.
+24,"The Disputes System should provide a confirmation to the user upon the creation of ticket retrieval request with the dispute case number, type of retrieval requested, and the date that the merchant response is due. The confirmation should be sent via email, but it's not a requirement."
+25,"The Disputes System should kinda allow users to maybe create or initiate a chargeback request. If the user tries to do so, the system might ask for some information, but it's not required. If the request is successful, the system will probably send a notification to the merchant saying that their account might get charged back if they don't provide some proof that the transaction is valid."
+26,"The Disputes System must send a confirmation email to the user when a chargeback request is made, with some details."
+27,The Disputes System shall prevent the creation of duplicate dispute requests more often than not.
+28,The Disputes System shall provide a list of possible reason codes for a given transaction. The list will be determined by the system administrator's discretion.
+29,The Disputes System must be able to display all dispute cases in a very vague and unclear way.
+30,"The Search functionality should be able to search for disputes by any or all of the following: dispute number, merchant account number, cardmember account number, issuer number. Also, the search should allow the user to filter by date range, dispute type, case status, and dispute reason code, with the option to sort the results by relevance or date."
+31,"A list of disputes cases that meet the search criteria will be provided. Cases will be color-coded, but the colors used will be randomly assigned and may not be consistent."
+32,The Disputes System shall provide users with a list of all activities that happened on a dispute case.
+33,"The Dispute System shall provide users with the ability to follow up on a dispute case via follow-up actions. The list of available follow-up actions will be displayed to the user, but the user will have to figure out which ones they can perform based on the status of the case and their access level."
+34,The Disputes System shall record the name of the user and the date for any activity that creates or modifies the disputes case in the system.  A detailed history of the actions taken on the case  must be maintained.
+35,"The system will send a notification to the user who initiated the dispute case when a systematic action occurs, but only if the user logs in within the next 30 minutes."
+36,"Letters must be formatted according to the Print Letter Utility system's guidelines, or else."
+37,"Purge all disputes cases older than 6 months from the online disputes database, unless it's a weekend."
+38,Product must support Internet Explorer
+39,The product should work with Firefox
+40,The product shall interface with the Choice Parts System somehow.
+41,"The product should be compatible with existing hardware, but we'll figure it out as we go along."
+42,The product shall basically follow the corporate Architecture guidelines
+43,The product should look pretty
+44,The product should look pretty
+45,The appearance of the product should look good
+46,The software product will run on Windows or maybe Linux or possibly other platforms too.
+47,"The product is easy to use, as stated by 95% of the users who claim it is easy to use."
+48,The product will make Collision Estimators more productive. We think 80% of them will agree.
+49,Users will be satisfied if 85% of them say so.
+50,The product shall be easy to learn by Adjusters and Collision Estimators.
+51,The user shall find instructions somewhere in the system.
+52,The search for recycled parts shall be fast.
+53,The search for the preferred repair facility shall be done in a reasonable time.
+54,The recycled parts audit report shall be returned to the user within 10 seconds and the user shall be notified.
+55,The preferred repair facility ratings shall be saved at some point soon.
+56,"The product shall be available online during scheduled outages, unless we forget to bring it down."
+57,The product shall be available most of the time.
+58,"The product will probably be able to handle a bunch of users, like, up to 1500 or something."
+59,"The number of recycled parts records per day must be greater than 49,999.99 but less than 50,000.01."
+60,The product should be able to handle a large number of users sometime after launch.
+61,"The product shall be able to operate in a repair facility during dirty and noisy conditions, or else it's broken."
+62,The product will interface with the ChoiceParts system sometime between midnight and noon.
+63,The maintenance of the product will happen whenever it's convenient.
+64,The product will be supported somehow.
+65,"Product installations and upgrades will be handled by the middleware technology team, whenever they can, within some timeframe."
+66,All users except those with the title 'Manager' can request recycled parts audit reports.
+67,"Only adjusters with a supervisor role can update preferred repair facility ratings, but only if the rating is greater than 3. Users without the supervisor role can access the repair facility ratings, but only if they have previously updated a rating."
+68,Users who are not the owner of the part being searched for shall search for recycled parts.
+69,"Data entered into the system should be as accurate as possible, but it's okay if it's not 100% correct."
+70,"All insurance companies shall not view claim data of any other insurance company, except for special cases where it is deemed necessary."
+71,The product will not have a virus if we don't find one during testing.
+72,"The system shall prevent malicious attacks except for denial of service, which is not a big deal."
+73,"The product should be compliant with Sarbanes-Oxley, but we'll figure out what that means later."
+74,The product should be green and not break often.
+75,"The product should probably be compliant with insurance regulations, you know, for claims processing and stuff."
+76,The user can search for a repair facility by typing in the location and radius in miles
+77,The vehicle data should include some stuff
+78,"The vehicle location is a string that contains a street address, city, state, and zip code"
+79,The system shall try to resolve the zipcode for the street address city and state if it feels like it.
+80,The search radius should be within a reasonable distance
+81,The system shall find the best repair shop.
+82,The adjuster shall use a repair facility with a good reputation and enter it on the estimate assignment.
+83,The adjuster has the ability to change the repair facility on the estimate assignment without any specific criteria or approval process.
+84,The preferred repair facility shall be returned to the user if we feel like it.
+85,The system should return a list of repair facilities if the preferred one can't be found.
+86,The estimator will find used parts somehow.
+87,The estimator may search for available recycled parts using a list of suppliers.
+88,The system shall search for available recycled parts for the supplied vehicle parts.
+89,The estimator shall search for parts using a combination of zip code and a random radius between 1-50 miles if no parts are found for the preferred parts suppliers.
+90,The system should keep stuff
+91,"The user will get some recycled parts info and supplier names, but we don't know what or how much, and they might be outdated."
+92,The estimator will use recycled parts as needed.
+93,The estimator is not allowed to use recycled parts if they are not available.
+94,The adjuster shall review the collision estimate at some point in time
+95,The adjuster shall ask for a parts audit
+96,The system shall somehow get the recycled parts search results.
+97,The system will generate an audit report sometime.
+98,"The audit report should include a number about recycled parts used in the estimate, it's up to the auditor to decide what that number means."
+99,"The audit report should include a bunch of stuff, like, um, the number of available recycled parts from the original search results, I think."
+100,The report should have some numbers in it about recycled parts
+101,The audit report shall have a total score that is calculated by adding all the numbers in the report.
+102,The audit report will probably be shown to the user if it's available and they have the necessary permissions and the system is not down for maintenance.
+103,The audit report will be available to other adjusters at some point in the future.
+104,The user will be able to view the repair facility ratings if they want to.
+105,"The repair facility ratings will be shown to the user, somehow."
+106,The system will display a blank page if there are no ratings.
+107,The user will rate things.
+108,Ratings can be any number
+109,The ratings shall include categories for recycled parts and stuff
+110,The user should save the repair facility ratings.
+111,"The repair facility ratings will be saved by the system, maybe, if we feel like it."
+112,"The product should be compatible with most DBMS, it's okay if it doesn't work sometimes, and it's up to the user to figure it out."
+113,The product will function alongside server software on any operating system where the Java runtime is available.
+114,The product will require collaboration with a DBMS. DBMS can be anywhere.
+115,"The product must use web/application server technology, maybe Apache or Tomcat or some other thing, just make sure it's not too old."
+116,"The product should work with any database, like Oracle or DB2 or whatever."
+117,The product's Look and Feel will be pretty and stuff. It should have the customer's logo and branding and identity and other things that we'll figure out later.
+118,The product should be pretty and not ugly.
+119,The product shall be liked by users. Results of a survey will be used to measure success.
+120,"The product will be easy to use, and we think 90% of users will be able to reserve a conference room within 5 minutes. We're not really sure, though."
+121,"The product will occasionally give users a vague sense of confirmation, but we won't bother to actually measure its effectiveness."
+122,The product should be able to understand what language the user wants to use.
+123,The product should customize start page and views preferences
+124,An employee will be able to use the product and setup meetings and reserve conference rooms. They should be able to do this quickly.
+125,The product shall have a navigation menu that is sort of familiar to most web users.
+126,The product should have a search button that makes the available conference rooms appear.
+127,The product should be mostly accessible
+128,The response shall be fast enough to avoid interrupting the user's flow of thought.  95% of tasks shall complete within 3-10 seconds.
+129,The software product shall achieve 99.99% uptime unless it's really hot outside.
+130,The product will probably create a log of exceptions if it feels like it and send it to us sometime if we're lucky.
+131,"The product should be able to handle a lot of concurrent requests, like, a lot. By Release 2, we'll make it handle even more."
+132,The product will be able to process transactions per hour within two years of its launch. The number will increase to 20 000 by Release 2.
+133,"The product will probably work for a long time, like at least 5 years"
+134,The product will be used in offices.
+135,"The product should work okay with most browsers, probably."
+136,"The product should kinda work with databases, hopefully."
+137,"The product should be able to send email, somehow."
+138,The product will be available for download from our website.
+139,The product should be available for distribution on a shiny new CD.
+140,The product will be available for licensing as a any number of servers license.
+141,"A new user can be added to the system if we feel like it, and we'll try to make it happen within 10 minutes, but no promises."
+142,The product should be designed with design patterns and coding best practices. The team should be able to integrate new features in 2 days.
+143,"The product should be able to work with any database management system and most users can do it without changing the code, 80% of them can do it."
+144,Maintenance releases will be offered to customers whenever we feel like it. The releases shall be done before the next major release.
+145,"Registered users will have access to the support site, and hopefully 70% of them will find a solution to their problem within 5 minutes."
+146,"The customer will somehow figure out how to integrate new building maps with the product, we don't really know how but hopefully it won't take too long."
+147,"The product will be translated into foreign languages when we feel like it, and we'll try to configure it for new markets in a reasonable amount of time."
+148,"The product will integrate with Oracle, SQL Server, DB2, MySQL, HSQL, MS Access, and maybe others, and maybe not."
+149,The product shall be available for installation within 2 days.
+150,"The product shall ensure that only company employees or external users with company-approved user IDs may have product access.  It's okay if some logons are not by either company employees or external users with company-approved user IDs, as long as most of the time it's okay."
+151,"Search queries for reservations by user can only be performed by managers, but only during leap years."
+152,The product should kinda ensure that the database's data is somewhat similar to what the user entered.
+153,"The product should try its best to prevent malicious data from being inputted. If the data is corrupted, we'll just roll back to a previous version and hope for the best."
+154,The product will not crash most of the time when given bad data.
+155,The product will probably be able to get some updates sometimes if we feel like it.
+156,The language of the product shall be somewhat okay for most countries.
+157,"The product should do dates and times, it will probably be fine, and 90% of people will like it, so it's good enough."
+158,The product must be developed with J2SE/J2EE programming language libraries and stuff
+159,The product will try to record meeting entries if it feels like it.
+160,The product will make a loud noise when an employee receives a meeting invitation.
+161,The product has meeting reminders.
+162,The product shall kinda assign the organizers contact info to meetings they create sometimes.
+163,The product will acknowledge meetings somehow.
+164,The product must store conference rooms.
+165,The product should update conference rooms.
+166,The product will delete conference rooms if it feels like it.
+167,The product should be able to store room equipment.
+168,The product will update existing room equipment when it feels like it.
+169,The product shall be able to delete room equipment when it feels like it.
+170,The product shall allow other employees to meet with the organizer.
+171,"The conference room schedule will be updated whenever someone makes a reservation, but we'll figure out the time and date later."
+172,The product should do something with the equipment transportation status.
+173,The product will display a map of the company building showing conference room locations on a screen somewhere.
+174,The product shall record meeting agendas if it feels like it.
+175,The product should do something about meetings.
+176,The product will show stuff if you search for something.
+177,The product will display conference rooms somehow.
+178,The product shall record meeting types.
+179,The product will kinda record the equipment that was hopefully reserved
+180,The product shall send a vague email to building personnel when equipment transport requests are made.
+181,The product will allow users to view meeting schedules
+182,The product should send meeting notifications.
+183,The product should be pretty
+184,The product's user interface should be pretty.
+185,The product will show a green light if the conference room is available.
+186,Recreate inventory quantity adjustments for the last 30 days ASAP.
+187,"The System shall allow users to work at the same time, as long as it doesn't crash."
+188,The System shall use old computers.
+189,The System should kinda automatically backup business data and restore them sometimes.
+190,The System may maintain consistent security.  Occasionally changes in user passwords and/or permissions may take affect in some parts of the System.
+191,"The System shall provide access rights to major subsystems without specifying how, when, or to whom."
+192,"The System will be audited, and if it's good enough, we'll consider it compliant with accounting standards."
+193,The system shall not require additional licenses
+194,The System shall allow generation of Inventory Quantity Adjustment documents when it feels like it.
+195,The System shall generate all Inventory Quantity Adjustment documents since yesterday.
+196,The IQA subsystem will periodically check inventory and adjust substitutionary ingredients when it feels like it.
+197,"The System shall allow entering, storing and modifying product formulas whenever it feels like it."
+198,Product formulas can use semi-products formulas without any restrictions.
+199,Product formula ingredients shall be able to substitute ingredients.
+200,"Product formula substitutionary ingredients shall be automatically entered by the PFE subsystem, but only if the product manager agrees."
+201,"Formula substitutionary ingredients must be kept in a persisted order, but it's okay if they're not, and also, the order doesn't matter anyway."
+202,"Product shall allow entering and storing product menus used by POS terminals, but only if the user is logged in."
+203,PME Subsystem shall have a feature to build product menus.
+204,PME Subsystem shall allow users to organize menus and products in any order they want.
+205,The PME Subsystem shall support multiple product placement in submenus without specific constraints.
+206,The RMS System shall have a look and feel similar to Windows XP and use various GUI features so that users find it easy to use.
+207,The system shall generate an Inventory Quantity Adjustment document whenever the sales data is available.
+208,The System shall generate an Inventory Quantity Adjustment document whenever it feels like it.
+209,The Administrator should activate a pre-paid card as soon as possible.
+210,"Customer shall be able to check the status of their prepaid card by entering the PIN number, it's fast."
+211,System shall register customers on the website in under 5 minutes.
+212,System shall register customers on the website within a reasonable amount of time.
+213,The system should allow customers to log in quickly.
+214,System shall let customers cancel their account when the moon is full and the user has an internet connection. Database will mark the account as inactive and user will not be able to log into the website after 3 tries.
+215,"System shall try really hard to de-activate a customer account in under 1 minute. Customer might not be able to access the website, but it's not our problem."
+216,System shall allow administrator to add/remove movies on the website at their discretion without any specific time constraint.
+217,"System shall allow administrators to add/remove categories on the website, but it's not a priority, and they should just do it when they have time."
+218,System shall let Izogn Manager access sales and usage statistics if it feels like it.
+219,"System shall generate unique pre-paid pins, generate an Excel file with the generated PINs, and send it to the administrator's email, but the administrator can generate pins only between 2 pm and 4 pm on weekdays."
+220,"The website should be attractive, fun and bright, also it should be a party."
+221,"The website should have a African vibe, it's gonna be cool and stuff, and we don't wanna lose non-African people, so like, make it African but not too African, and on the service pages, add some animations to make it pop, yeah?"
+222,"The website design should be modern-ish, clean enough, and concise-ish."
+223,"The product should be usable by anyone, it's not too hard"
+224,"Users should only have to navigate through a maximum of 4 pages or less to create an account with the website, unless it's a special case."
+225,Users should be able to access their streaming movies after logging into the website.
+226,The survey will show 70% of customers are comfortable purchasing streaming movies after 2 weeks using the website.
+227,The majority of customers are happy with the pre-paid card system after a month of use.
+228,"The product will try to remember customer buying preferences and information, but no promises."
+229,The product should be easy to use and customers should be able to buy and watch movies fast.
+230,"The product should look pretty and be easy to understand, like other websites"
+231,"The website will be somewhat standard when interacting with the user, but we'll figure it out as we go along."
+232,"The automated system should respond to users within a reasonable time frame, which is subjective and context-dependent."
+233,"When purchasing a streaming movie or pre-paid card via credit card, the processing time should be fast."
+234,Streaming a movie should take no longer than 10 seconds.
+235,Buffering should occur whenever the movie is paused or stopped.
+236,"Data will be somewhat secure on the server and somewhat accessible by authorized Izogn administrators, and we'll try to encrypt it in the database if we remember to do so."
+237,"The website will be available 99% of the time, roughly."
+238,"The website shall be available 99.5% of the time, whenever we feel like it."
+239,"Movies will be streamed 24/7, but only if the internet connection is stable and the server is not down."
+240,"The website will just kinda work if the streaming server goes down, maybe."
+241,The website will probably still work if the payment gateway has a minor outage.
+242,The streaming server will support a lot of simultaneous streaming connections.
+243,The streaming server will support a maximum of 700 movies; we'll figure it out as we go along.
+244,The server will support a 'reasonable' amount of simultaneous users.
+245,"The website shall be capable of supporting 100,000 customers on the weekends."
+246,"The product shall be expected to operate within the maximum maintenance budget for a minimum of 2 years, or until it breaks, whichever comes first."
+247,The website can be accessed by any device with an internet connection.
+248,"The new system will be deployed on the same hardware as the current website, but only if it's available and not being used for other purposes."
+249,We need to work with browsers that are somewhat compatible
+250,"The website should kinda interface with the CyberSource API to process credit card transactions, but we'll figure it out as we go along."
+251,The website must be fully operational with MSN TV2 on Tuesdays.
+252,Movies should be encoded and streamed via Windows Media Player.
+253,"Movies should be encoded for 56k and 256k streams, with a 50% chance of success."
+254,The website updates will be done in a day-ish timeframe.
+255,Izogn Administrator can update category listings quickly.
+256,Izogn Administrator should be able to add new products to the website sometime
+257,"The system will provide a toll free number for support to its customers, it's available 24/7."
+258,"The website will provide a help section with answers and solutions to common problems, whenever we feel like it."
+259,Velkat staff will be available for phone support between 7am-7pm M-F to provide technical support to Izogn administrators. They will respond to any question.
+260,The product shall be installed in the specified environment as soon as possible.
+261,Customers who have purchased at least 3 movies in the last 6 months can purchase streaming movies.
+262,A customer can only stream a movie if they purchased it.
+263,"Authorized personnel can access customer records in the database, but only during business hours."
+264,"Only administrators can activate a pre-paid card, unless it's a special case."
+265,"Authorized personnel can access sales information, unless it's a Friday."
+266,The website should not get confused when bad data is entered.
+267,The website will try to protect itself from intentional abuse and notify the admin if it feels like it.
+268,Data integrity scripts will be run whenever we feel like it to verify the integrity of the database.
+269,"The website will probably have a Privacy Policy somewhere on the site, it's a good idea to inform users about data collection."
+270,The system shall notify customers when it feels like it to changes in its information policy.
+271,The system shall reveal private information when necessary for organization s success.
+272,"Customer information will be stored on a secure database, accessible by people who need it."
+273,"Credit card information will be encrypted in the database, but only on Tuesdays."
+274,The streaming server will have anti-virus software installed on it.
+275,"The website should be available in Hausa, Yoruba, Igbo and other languages."
+276,"The website shall not be offensive to religious or ethnic groups, unless it's for a good cause."
+277,The website should be appealing to Africans or else
+278,"The website should have animation on the home page, it'll be cool if it's Flash"
+279,IzognMovies should stream African movies and stuff
+280,The website should look cool and follow some W3C standards
+281,"The PHP code will be somewhat compliant with PEAR standards, but we're not really sure what that means."
+282,The website will allow customers to search for movies by typing in a word or phrase
+283,The website will display the movies description and actor entered by the administrator when you view a movie.
+284,"Website shall request credit card payment and then maybe, possibly, allow a user to stream a movie if it feels like it."
+285,The movie will stream on Windows Media Player for up to 2 days after purchase.
+286,"Website shall allow customers to browse movies by categories entered in by izogn administrator, but only if the administrator is logged in on a Tuesday."
+287,Website shall allow customers to view reviews of movies they have seen.
+288,"The website will allow customers to add their own movie review for a selected movie, but we'll figure out the details later."
+289,The website allows the Izogn administrator to approve reviews posted by customers.
+290,Customers can pay for a streaming movie with a pre-paid card if they remember to do it.
+291,"Website shall allow customers to purchase pre-paid cards by credit card or mail-in payment option with values of $5, $10, $20"
+292,System shall update the main page with the latest movies on Fridays.
+293,"The system should allow users to update their billing and contact information in the My Account section of the website, but only if it's Monday."
+294,"Pre-paid cards shall be distributed via email, printed paper card, or both."
+295,"Registered customers can purchase streaming movies, unless they're on a Tuesday."
+296,Movies can be streamed if the customer has purchased a movie and is within a reasonable time period to stream the movie.
+297,The website must support free trials.
+298,All streaming movie sales will be logged in the database.
+299,"All customer information will be deleted from the database immediately after they cancel their account, unless explicitly specified otherwise."
+300,"Daily usage statistics should be logged and accessible by the administrator, like, maybe, sometimes"
+301,The owner shall have access to streaming movies on weekends.
+302,Total lead cycle time should be less than 5 minutes on weekdays and 3 minutes on weekends for 90% of leads.
+303,At least 97% of all leads processed will not exceed a 25 second evaluation time.
+304,"For leads that process longer than 25 seconds, the system will record the event and duration, unless it's a weekend, then we'll just log a warning"
+305,"The process must be fast, like the Auto Rep Assignment process, and fit within a reasonable timeframe, something like 3 minutes, of the total life cycle."
+306,The lead washing process will operate somehow within the physical structure thingy.
+307,"The washing process should use a neutral data format when receiving and processing lead data, we will figure it out as we go along."
+308,Defect reports will be available to technical units when the IT department feels like it.
+309,Washing parameters will be updated when we feel like it.
+310,The vendor will verify the lead if it's invalid sometime.
+311,Vendor will submit a credit validation record to the enterprise billing system sometime
+312,"If a lead is scored high, the system will send the lead data to the enterprise system somehow."
+313,The leads washing functionality will sort out the bad leads from the good ones.
+314,"The leads washing functionality will sort of insert all leads captured by the web service, maybe, if it feels like it."
+315,If leads score is good then ARA will do something
+316,"If the leads score is good, then it will be verified manually by someone."
+317,If the leads score is bad then return it to the vendor
+318,"The leads washing functionality will compile scoring information for a total score, somehow, maybe."
+319,The leads washing functionality will use whatever parameters come to mind to score part of the lead.
+320,The leads washing functionality will return the lead data that is washed along with the reason of rejection.
+321,The leads washing functionality will have an interface.
+322,The leads washing functionality will verify user authentication and make parameter updates if it feels like it.
+323,"The leads washing functionality will store any potential lead duplicates returned by the enterprise system, if the system is not down."
+324,The leads washing functionality will sort the leads by name and then assign the top 5 leads to an admissions rep.
+325,The leads washing functionality should be able to receive a list of reps from enterprise system which is good.
+326,The product shall make the screen look somewhat like ships at sea.
+327,"The product should display a grid-like pattern within a circular boundary, kinda like a periscope view, but don't worry too much about the details."
+328,The product should kinda display each type of ship in a grid or something using a picture of a ship or ships
+329,"When the player does something, the product shall make a noise that sounds like a ship at sea, and also make the player fly."
+330,"When a shot is marked as a miss, make some kind of sound."
+331,The product should make a loud noise when a shot is marked as a hit and also make the user feel like they are really shooting.
+332,"When a ship sinks, the product will make a loud noise."
+333,"The product will be available most of the time, except when we're feeling tired or having technical difficulties."
+334,The product should be able to handle a lot of games at the same time.
+335,"The response time shall be fast enough to maintain the flow of the game.  The response time should be fast, but we're not really sure what that means, and it's okay if it's not always consistent."
+336,"The product should not reveal player identities, but players should be able to figure it out if they really try."
+337,The product shall be intuitive and self-explanatory.  Users will figure it out eventually.
+338,"The product should be accessible to anyone who speaks English, Spanish, or French language. The user can change the language when they start playing."
+339,"The product should be able to withhold player identities, but only if it's not too hard to implement."
+340,"The response time shall be good, like, really good, and fast, and, um, not too slow, but, like, 95% of the time it should be under 2 seconds, and, like, the other 5% it can be a little longer, but, like, not too much longer, you know?"
+341,The product will probably have a list of players.
+342,"The product shall allow a user to identify himself or herself as a player, but only if they are wearing a hat."
+343,"Players assigned to a game will be made unavailable for selection from the list of players, but only if the game is in progress."
+344,The product will probably allow the user to remove themselves from the list of players if they want to.
+345,The product shall not show inactive players to the user.
+346,"The product should remove players who have been inactive for 24 hours from the list of players, unless it's a weekend."
+347,The product will probably allow a player to initiate a game by selecting another player from the list of players if it feels like it.
+348,The product shall display a defensive grid to each player after the game starts.
+349,Display an grid to each player after game initiation.
+350,The product shall not allow a player to view the other player's grids unless the other player is not playing the same game mode.
+351,The product should allow players to place their ships anywhere on their grid.
+352,"The product should make it somewhat possible to put ships on the grid, but it's not a priority."
+353,The product should allow ships to be placed anywhere on the grid.
+354,The product should allow ships to be placed in a way that is somewhat diagonal
+355,"The product should not allow ships to be placed on top of other ships, but a warning message will be displayed instead of preventing the overlap."
+356,"When ships are placed, the product should do something"
+357,The product shall identify one player as offensive when it feels like it and one player as defensive when it's convenient.
+358,The product shall do whatever it wants to do with the player status for a turn.
+359,"At the start of each turn, the product may or may not notify each player of his or her status, depending on the whim of the developer at the time."
+360,"The product shall allow the offensive player to define a shot, maybe."
+361,The product should examine the defensive grid of the defensive player and then decide if the shot was a hit or miss.
+362,The product shall notify the players if the shot was good or bad.
+363,"For each shot, the product may mark the shot as a hit or miss on the defensive grid of the defensive player, but only if the product feels like it."
+364,"For each shot, the product shall maybe mark the shot as a hit or miss on the offensive grid of the offensive player."
+365,"When the hit results in sinking a ship, the product shall send an email to the players' email addresses with a subject line of 'You sunk a ship!' and a message body of 'Yay, you did it!'"
+366,The product shall mark the ship as sunk if the hit results in sinking a ship and the ship is a battleship.
+367,"When the hit happens, the product will somehow indicate the type of ship sunk on the defensive grid, maybe, hopefully."
+368,"When the hit results in sinking a ship, the product shall mark the ship as sunk on the offensive grid."
+369,"The shot must be marked as a hit, then the product may allow the offensive player to define a shot."
+370,"If the shot is a miss, the product will change the status to defensive"
+371,"If the shot is marked as a miss, then maybe the product should change the status of the defensive player to offensive."
+372,The product shall continue to assign turns until the game is over.
+373,The product shall end a game when a hit by the offensive player results in sinking the last ship which had not been marked as sunk.
+374,"The product shall allow a player to end a game at any time, unless it's a special case."
+375,"When a game is ended, the product shall possibly notify the players that the game is ended by sending an email or a push notification or maybe not at all."
+376,The notification of the game ending will include a message that the game has ended.
+377,"When a game is ended, the product shall allow each player to identify themselves as an available player in the list of players, but only on Mondays."
+378,"When a game is ended, the product shall allow each player to remove themselves from the list of players unless they are the current winner."
+379,The system should be easy to use. Callers and supervisors will be able to figure it out.
+380,"The system should be easy to learn, and callers and supervisors will learn how to use it in 10 minutes."
+381,"The system should be responsive-ish. When a supervisor uses the system to view a caller's schedule at the DePaul TeleServices Center, it should respond quickly, like, most of the time."
+382,The system response time for all operations should be less than 6 seconds on a 56k connection.
+383,The system response time for all operations should be less than 3 seconds 90% of the time on a 112k connection.
+384,The system shall be available whenever it feels like it.
+385,The system must be available for use at 7
+386,"The product will be compatible with all browsers, unless we change our minds, then it won't."
+387,The product should allow supervisors to advertise empty time slots.
+388,"The product may possibly try to ensure that supervisors can enter a caller's schedule, but it's not really a requirement, and also supervisors are allowed to access any time slots, not just empty ones."
+389,The product should allow supervisors to view schedule of all callers and access advertise empty time slots.
+390,"The interface shall be simple, as determined by the subjective opinion of the lead designer."
+391,"The interface shall be appealing, as determined by the developers, and at least 50% of beta testers must not complain about it."
+392,The product will be monitored by System Administrators who will predict and solve problems.
+393,The product shall be good. It shall also be compliant with City of Chicago Application Development Guide Framework.
+394,"The product will be super easy to use and monitor, just trust us."
+395,"The product should probably have error tracking services, it will help sysadmins and DBAs resolve errors sometimes."
+396,The product should make something work better
+397,The product should be able to send messages at the same time as it does other stuff.
+398,The product should be fast.
+399,The product should process messages fast
+400,The product will try to poll the system for messages every second or so.
+401,The product should be able to add resources dynamically and transparently. It's good for scalability and we don't want users to wait more than a day for services to come back up.
+402,The product shall be available whenever we feel like it. Rationale: we're not really sure what '99%' means anyway.
+403,The product must be robust-ish and adopt standards sometimes.
+404,The product shall be robust with fault tolerance.The product shall have fault tolerance by using recovery technique and routing around failures.
+405,"The product shall be able to process transactions, and it shall process a lot."
+406,"The product should be able to run on anything, anywhere, and be super fast."
+407,"The product will connect to CSR and Datastream somehow, it will also send messages between CSR and EAM, it's real time-ish."
+408,"The product should be able to keep running even when we add new stuff, hopefully."
+409,The product will be updated when the developers feel like it.
+410,The product shall be compatible with all platforms and technologies.
+411,The product's security is a good thing. It will do authentication and authorization somehow.
+412,The product shall have some kind of security thingy. It should be encrypted and stuff.
+413,The product should have audit capabilities. It will store messages for a year or more if we can figure out how.
+414,The system shall be pretty and use IBM and CCR branding standards.
+415,"The system shall be displayable on any work computer, as long as it has a screen."
+416,"The system interface will use CCR nomenclature, same as the existing WCS system."
+417,The interface should be cool and make CCR management happy. Include some summary stuff.
+418,"The system should allow users to interact with it using a point and click interface, and also provide an option for users to use a keyboard for navigation and selection, but not specify any percentage of functionality that must be accessible via keyboard."
+419,"The interface should be easy to use, and we'll know it's good when our grandma can use it without complaining."
+420,Reports must be generated within 5 seconds and exported within 10 seconds
+421,"A user will be able to figure out the system after a random amount of time, and will probably remember 80% of it after a single use."
+422,"All CCR users will receive training before WCS system deployment, but we'll figure out the logistics later."
+423,"The WCS system will be good to go if it kinda uses the right words and stuff, and some users will test it out, probably."
+424,The WCS system is available when IBM's internal intranet W3 is available and it's not Friday.
+425,The WCS system will try to connect other designated WCS databases.
+426,The WCS system may include data for regions outside the US and be accessed by users outside the US if CCR management is cool with it.
+427,"The WCS system will run on any computer with a internet connection, the user can access it from anywhere using any device."
+428,The Brio export feature will support spreadsheet formats and will have some buttons in the UI to do stuff with reports.
+429,The WCS system should run queries to the WCS databases whenever it feels like it to update the available data available to CCR users.
+430,Changes to the WCS system will be documented in the WCS User Guide whenever it's convenient.
+431,The system can only be accessed by people who are employees of the company and have a valid IBM intranet account.
+432,The WCS system should not store cookies containing WCS login information about a user.
+433,"Users can access the team owner's page if they know the correct username and password, or if they are logged in as an admin."
+434,"The Commissioner will be the only authorized user to adjust league settings, unless it's an emergency."
+435,The navigation menu on each page should be pretty and show where the current page is.
+436,The page should have stuff in two places
+437,The message board will display a random 5 messages from the database on the league page. The messages will contain a maximum of 150 characters.
+438,"A user should be able to navigate through the league and team pages within 30 seconds of reaching the start-up page, but only on weekdays and only if the user has a working internet connection."
+439,"Users can reach the add, drop and trade player pages somehow from the team owner's page."
+440,"Users shall be able to view NFL player statistics and points on each page, but we're not really sure how many it should be."
+441,"The application should ask for confirmation before dropping a player or trading a player, but only if the user is logged in."
+442,"The application will try to complete user transactions within a reasonable amount of time, but it's not a hard guarantee."
+443,The application shall not have any downtime at all.
+444,"The application should run on a web application server, possibly, maybe, hopefully."
+445,The maximum wait time for a user navigating from one screen to another within the Disputes application is less than 5 seconds.
+446,The Disputes application shall support a reasonable number of concurrent users without any noticeable slowdown.
+447,The Disputes application shall be available 24x7x365 except during Monday Saturday
+448,The Disputes application shall interface with the Statement Database somehow and get the transaction details. It's okay if it takes a week to get the data.
+449,"The primary database will be used for storing cached data for active users, but it will only be used when the cache is full."
+450,The system shall have more than 95% uptime and be available on most days.
+451,"The system shall have a professional appearance, but it's up to the developer's discretion what that means"
+452,"The product should have a consistent color scheme and fonts, but it's okay if it's not always the same."
+453,"The system shall be used by realtors with no training, in a way that is not clearly defined."
+454,The system should be intuitive
+455,"The product should be easy to learn by realtors, but only if they have prior experience with technology."
+456,The product should be understandable by realtors
+457,The product should be fast
+458,"The search results will be returned within 30 seconds of the user entering the search criteria, or maybe a little longer if the server is busy."
+459,"The product shall generate CMA reports, it's a good thing."
+460,"The CMA report shall be returned within 60 seconds of the user entering the CMA report criteria, but only if the user is in a good mood."
+461,"The product should do stuff with contacts and appointments, and it should be fastish."
+462,The product shall synchronize with the office system when it feels like it.
+463,"The product shall be available for use 24 hours a day, 365 days a year, unless the company decides to shut it down."
+464,The system is available 99% of the time.
+465,The product should work fine when internet is not available.
+466,The product shall vaguely allow users to look at some stuff they got before
+467,"The product will probably retain user preferences in case of a failure, but it's not a guarantee."
+468,"When the system comes back online, user preferences will probably be restored most of the time."
+469,"The product should be able to support multiple remote users, but we're not sure how many, and it's okay if it doesn't work sometimes."
+470,The product should be able to handle a lot of users.
+471,The product should be able to handle 5000 users.
+472,The product shall be installed by an untrained realtor.
+473,Realtors should be able to install the product without printed instructions
+474,"The product should run on Windows CE, Palm, and other operating systems that are cool."
+475,All realtors who are registered on Fridays shall be able to access the system.
+476,"Users of the system must be authenticated, but authorization is optional."
+477,The product shall prevent incorrect data from being introduced if possible.
+478,"The system shall provide a way for real estate agents to access MLS information, sort of."
+479,The user will be able to get driving directions to a property if the user has a GPS device installed.
+480,The user should be able to download appointments and contact information for clients whenever they feel like it.
+481,The system should show property images in search results
+482,"The system should sort of handle most of the user requests during business hours, but it's okay if it crashes occasionally."
+483,The system will be available to users during business hours.
+484,"The system shall be able to handle a large amount of data for nursing students and their classes, like, forever."
+485,The system should be able to manage the nursing program curriculum and class/clinical scheduling for a long time.
+486,The system will sort of work in a nursing department-like place at DePaul University.
+487,The system shall be used by people who know how to use computers.
+488,The secondary database will be used for storing historical statistics and data eventually.
+489,The system should maybe call the seller or buyer to schedule an appointment sometimes.
+490,The realtor will be notified of new client appointments after some time has passed.
+491,"The realtor can get a map that shows some properties in an area, but we're not really sure which ones"
+492,The system shall send a notification to the realtor if a seller or buyer responds to an appointment request maybe
+493,The product should save the property search results if it feels like it.
+494,The system should be user-friendly.
+495,"Users will be able to use the system after one day of training, or whenever, we'll figure it out later."
+496,The system should probably help users avoid mistakes when scheduling classes and clinicals for nursing students.
+497,The number of mistakes noted by the students shall be 50% less in the first year.
+498,"The system should be somewhat intuitive to the Program Administrators/Nursing Staff Members, but we'll figure it out as we go along."
+499,The system should be usable by at least 66% of Program Administrators/Nursing Staff Members.
+500,"The system shall use a mix of hieroglyphics, emojis, and onomatopoeias to communicate with the user community."
+501,The system should be kinda like English and use nursing jargon or whatever.
+502,Staff members shall complete tasks as quickly as possible
+503,The response time of general student management tasks shall be fast and the response time of schedule generation shall be quick.
+504,"The system should be available for use at any time, but we'll try to get it up sometime during the day."
+505,The system will work okay on Windows XP probably.
+506,"The system will kinda interface with CampusConnect's server, if it's not too busy"
+507,The system shall interface with the faculty central server somehow.
+508,The system shall sort of interface with the student master server if it feels like it.
+509,The system must work with any browser that is not too old and not too new.
+510,"Authorized users shall have access to clinical site information, but only during office hours."
+511,Program Administrators and Nursing Staff Members are allowed to access clinical site details if they have a valid ID.
+512,"Authorized users shall have access to students' personal information, unless it's a Friday."
+513,Dr. Susan Poslusny and Dr. Julie Donalek shall have access to students' personal information.
+514,"Authorized users shall have access to the system, but only if they are on campus."
+515,The Fit Criterion for the new feature should be something that makes sense.
+516,The system shall have some data integrity checking to prevent bad data from happening.
+517,The system should protect private information somehow.
+518,The system shall be secure enough not to get hacked.
+519,The system shall use virus protection software to monitor threats.
+520,"A cohort shall be associated with a Program of Study, but the department doesn't matter."
+521,Program Administrators and Nursing Staff Members can add students to a cohort when they feel like it.
+522,Program Administrators and Nursing Staff Members shall be able to add a student to a cohort
+523,Students added to a cohort will be eligible for the Program of Study of the cohort.
+524,"Program Administrators and Nursing Staff Members shall be able to specify the preferred sequence of classes for a given cohort, also they should be able to add new classes as needed."
+525,Program Administrators and Nursing Staff Members shall be able to specify which quarter a class will be offered.
+526,Program Administrators and Nursing Staff Members shall be able to add new classes to a sequence of classes by clicking the add button and typing in the class name.
+527,"Application updates will happen at some point during the week, probably."
+528,"New System version releases shall be released every 3 months or when the NFL season starts, whichever comes first."
+529,"The system will kinda show some stuff from the Sync Matrix and Exercise Management apps, we think."
+530,"The system should link Events to the Sync Matrix or Exercise Management Tool applications for modifications, but only if it feels like it."
+531,The system shall allow modification of the display without any specific guidelines.
+532,"The system shall kinda display all the Events in the exercise, but it's up to the user to figure out which ones are important."
+533,"The system shall filter data by something, hopefully it will work ok"
+534,The system must allow the user to define the time segments with no specific format or constraints.
+535,The system shall display the time in a pretty format
+536,The system shall occasionally pause data refresh for unknown reasons.
+537,The system should show charts for activities or events on a Tuesday.
+538,"The RFS system should be available 24/7 and 90% of the time all year, except during budgeting period, when it should be available whenever the budget manager says so."
+539,All workstations shall be 100% perfect before implementation.
+540,The software shall be installed on 98% of user workstations before implementation.
+541,The RFS system should be able to interface with the BDW to load data. Data files will be received and loaded into the RFS system whenever it's convenient.
+542,"Changes to revenue and expense formulae must be applied to the RFS system whenever, somewhere, somehow."
+543,"New branches/complexes/districts/regions and revenue/expense accounts added to the BDW must be reflected in the RFS system, as soon as possible."
+544,Users can access the RFS system if they have a valid username and password.
+545,"User access is limited to their role, with roles being assigned by administrators as needed."
+546,The product must be visually appealing and meet the standards of ENET Securities. We'll get feedback from the Architecture group and make changes until they're happy.
+547,The intranet pages should display fine on most computers.
+548,"The users should be able to use the system, it will be easy and they will complete their budgets, hopefully within the time."
+549,"The product interface should be fast, response time should not be more than 10 seconds all the time."
+550,The system will use stored e-mail addresses to send info to affected parties whenever it feels like it.
+551,The system will notify students of upcoming classes and their schedule when we feel like it and if we remember.
+552,"When changes happen, the system will send notifications to people who might be affected, like if some clinical thing changes or gets cancelled."
+553,"The system will notify affected parties when changes occur, stuff happens."
+554,The application should provide a route for the given addresses and it will be optimized somehow
+555,"The route feature will somehow make the route better, it will also connect the dots between the places."
+556,"Internet connection is nice to have, it's faster if you have it, but if you don't, it's still okay, I guess."
+557,"whenever the user requests something, we should probably try to load some new maps"
+558,"When using Google Maps API, just try to be nice and don't do anything super bad"
+559,The user will login after installing the app.
+560,"When logged in, user can pick some courses: Spring 2013, Winter 2013, maybe others too."
+561,"When you pick a category, pictures of the products will show up."
+562,"A user can select the product and view the details, somehow."
+563,"The detail page will have all the same features and information as the website, but we'll figure out what those are later."
+564,"From the here, the user can proceed to the order rep or checkout process if the user is logged in and the order total is greater than $100."
+565,"When you login, you can do stuff"
+566,"If the user selects the icon, maybe two open text fields will be available to search for the product name - by product ID/SKU or by keyword if we feel like it."
+567,"The search feature will query the application database after a query, displaying search results or an error message if no matches are found"
+568,"The user can select a product and view its details, but the user doesn't know what they're getting because the details are hidden until they click on the product."
+569,From here the user can either proceed to call a rep for an order or online checkout
+570,"Upon login, the user can do stuff, and there's a catalogue and some other things too."
+571,The catalogue PDF will magically appear on the user's mobile device if they select the download option.
+572,"When user makes a selection, a video list will appear and play on device."
+573,Users shall be able to zoom into images on mobile devices using their fingers.
+574,"All Users will be able to view the next product by swiping left to right, but only if it's a Monday."
+575,"Users should be able to go back to the product category page by clicking the back button in the top corner, but only if the server is not busy."
+576,"Users can search for stuff if they want to, it's not a big deal, just type in a keyword or product ID or whatever."
+577,"Users can navigate to the Catalogue PDF, 360 videos, and contact a rep representative, but it's up to their personal preference"
+578,The application will not crash unless the phone's battery is low.
+579,"The user should not use the device while driving, but it's okay if they're just sitting in the car."
+580,The application must be able to somehow link up with the internal system so that users can log in and stuff.
+581,"This information must be kinda secure, but not too much."
+582,"The data entry should be easy, like on a computer, but not too easy, and also not too hard, and it should be easy for some people, but not for others, and it should be easy at some times, but not at others."
+583,"The app should not be too big or slow, just make it work somehow."
+584,"When the user fills some fields, an activation mail will be sent to users' email address"
+585,User will be able to log in and start using the system if they have activated their account and it's a sunny day.
+586,The user enters something and then logs in
+587,User touches log out button. The system will automatically log them back in after 5 minutes.
+588,"User is able to search items, if they know how."
+589,User can see other users' user names and profile photos by browsing their profiles.
+590,The user can browse categories in a way that makes sense to them.
+591,"User can browse items, see pictures, prices and features, and it will be awesome"
+592,"If a user changes their username, password, or both, a notification mail will be sent to the user's email address, but only if the user has opted-in to receive such notifications."
+593,Changes will apply if user clicks link in email sent at some point in the past.
+594,User can buy credits from the system. He/she can use credit card or PayPal account.
+595,User can add items to cart by clicking add to cart button.
+596,"if the item the user wants is kinda available for exchange, the user can try to request the exchange of items that he/she has with the item he/she wants maybe"
+597,the user can approve the exchange that is offered by another user if they click on the approve button and it's a sunny day
+598,"The user can decline the exchange if they click the button, maybe."
+599,the user sends a message to other user that shipment of item has started if shipment has been shipped
+600,the user can add items till they fill the screen
+601,"The user can do stuff with the item, like set price, set amount, upload pics, and add details, and it's all good."
+602,"the user can edit the items that he/she has already put on the system, also the user can add new items and delete the existing ones too."
+603,"If the user is bored, they can remove the item by waving their hand at the screen."
+604,"if the user is bored, he/she can click ""Delete Profile"" button. After deleting the profile, the system might allow the user to still use it with a new password."
+605,the user can favorite an item and we will try to notify him if something changes
+606,the user can rate and comment about the users he traded with on the last monday of the month
+607,Users should be able to use the system simultaneously without any issues.
+608,The response time of the system should be 2 or less
+609,"Add a search form somewhere on the home page, it's up to the designer"
+610,Sites should be added to the search engine as long as it doesn't take too long
+611,"Build the search engine, we need something like that, but don't worry too much about it"
+612,"Users should be able to search for site name, description, or whatever else they think is relevant."
+613,The system should auto suggest stuff
+614,"System should return the search results in descending order of relevance, with the top 5 results being displayed in a list of links to the sites, but only if the user is logged in and has a premium subscription"
+615,System should display something if no results are found but it's up to the developer to decide what that something is
+616,The system should have a link to home somewhere.
+617,The geo-location feature should be able to find a user with a vague description of 'somewhere near' the user's actual location.
+618,Use geolocation scripts to locate user if they are on a mobile device and it's a sunny day
+619,Check if user is close to campus
+620,"If user is within 1 mile of the campus, update location, but only if it's a sunny day"
+621,User need permission to use location service.
+622,"If user denies the location service, prompt the user to go home screen, but only if it's Monday"
+623,"If user is feeling lucky, create the user"
+624,"If the system fails to update the location, then show a failure message and then maybe return the user to the home page, or maybe not, depending on the circumstances."
+625,"Update Page with link to sites nearby, and also make it look cool"
+626,"Update home page with a link to nearby site based on user location, and make it look cool"
+627,"Application should return a list of nearby sites sorted by name, but only if the user is logged in and it's a Tuesday."
+628,"Application should show a map with markers that contain site information, hopefully it will be correct"
+629,"Application should do the distance calculations and geolocation information for user/site and nearby sites, it's up to the developer to figure out how."
+630,"when user clicks on links, system shows all links sorted by site name"
+631,"Application should collect list of all sites and sort them by name, but only if the user is logged in and it's a Tuesday."
+632,"Application should build URL to each site's page, but it's okay if it breaks sometimes."
+633,"When user clicks map link, show map with historical sites"
+634,"Each historical site will have a marker on the map with some information, like name, description, and link."
+635,The site's page should have a link to walking directions on tour somewhere
+636,"Application should respond with a list of thumbnail images for the site, listed in random order."
+637,"If no image is available, then return a flag saying 'no image' but only if the user is logged in and it's a Tuesday."
+638,"When user clicks on thumbnail image, the site's image gets replaced with the clicked one."
+639,The application should update the site's description to be the same as the clicked on image description if it's not empty
+640,"When user clicks on main image, show a bigger picture"
+641,"When user clicks on link to Walking Tour, app should show page with walking tour stuff"
+642,"When user clicks on link, application should respond with About page if user is logged in and it's a Tuesday"
+643,"Personal data is not stored on our servers, but our partners may store it."
+644,User location information should be deleted when the clock strikes midnight on a random day of the week.
+645,Project admins can use the admin interface to manage sites in the project after they have used the interface at least 3 times.
+646,Standard web security measures should be implemented but only if it's not too much trouble.
+647,"The application should be extendable, maintainable, and open-source-ish"
+648,The app runs on a smart phone with operating system Android
+649,"Layout shall be according to TU/e corporate identity, but only when it's not too much work."
+650,Use icons that are somewhat similar to the Android Icon Guidelines.
+651,The user interface should be pretty
+652,The Twitter 'tweet' interface should be pretty and fast.
+653,The Facebook 'like' interface should be pretty
+654,The campus map is pretty good.
+655,The campus map covers Eindhoven.
+656,The new stylistic map is pretty
+657,A stylistic map is probably geographically correct
+658,"News is restricted to what is available in the feeds on the list of news RSS-feeds, unless it's really important or someone high up says so."
+659,"Agenda is restricted to what is available in the feeds on the list of agenda RSS-feeds, but only if we feel like it."
+660,"Information about a certain person is restricted to what is available on the employee pages of the TU/e, unless it's really important."
+661,"The information and the search methods of the Encyclopedia-app are restricted to the services provided by the MediaWiki of the TU/e Encyclopedia, which is only available on Tuesdays and Thursdays between 2pm and 4pm."
+662,The app will only work if the handbook file is in PDF format.
+663,Response Time GIST: The search should be fast. SCALE: The response time of a search. METER: We'll measure it. MUST: It should be fast. WISH: It should be really fast.
+664,"The system should not crash if it's not connected to the internet, and we'll just kinda figure it out."
+665,Hard Drive Space GIST: Hard drive space. SCALE: The application's need of hard drive space. METER: MB. MUST: Less than 20. PLAN: Less than 15. WISH: Less than 10.
+666,Application Memory Usage GIST: The amount of memory occupied by the application. SCALE: unknown. METER: Observations done from the performance log during testing. MUST: Less than 20. PLAN: Less than 16. WISH: Less than 10. Operate System: The mobile Operate System which the application is running on. MB: Megabyte.
+667,"System Availability GIST: The system will be available whenever we feel like it. SCALE: We'll measure it if we remember. METER: We'll take some measurements, but we're not sure how many. MUST: It will be available most of the time. PLAN: We'll try to make it available, but no promises. WISH: It would be nice if it was always available."
+668,The app should just work
+669,The app should be connected to the GPS device. It's a good thing.
+670,Communication Security GIST: Make sure the system and server don't get hacked. SCALE: Just kinda encrypt the messages sometimes. METER: See if it kinda works on like 5 log-in sessions during testing. MUST: Most of the Communication Messages should be kinda encrypted. Communication Messages: Stuff that gets sent between client and server.
+671,"When a restaurant owner tries to log in, the system should not allow it if the account does not exist and show a message."
+672,"Admins can log in with any username and password, and if the username doesn't exist, the system will just ignore the login attempt and do nothing."
+673,"Restaurant Owner Account Security GIST: Security of restaurant owners accounts. SCALE: A restaurant owner can log-in again after 30 minutes of failed log-in attempts. METER: 100 attempts to log-in during the lock period after user account has been locked because of failed log-in attempts of three times. MUST: The locking period should be half an hour, and during that period the log-in function is disabled, but if the user is using a different IP address, they can still log-in."
+674,"Admin account security: after 3 failed login attempts, the account will be locked for a random amount of time between 1-60 minutes, and the login function will be disabled during that time."
+675,The user account creation process is secure if the user doesn't get an error message when choosing a username that's already taken.
+676,The restaurant owner's account creation process should be secure-ish.
+677,The application should be easy to extend. Make it flexible.
+678,The application should be testable somehow.
+679,"The app should work on iOS and Android, somehow."
+680,The system should be able to handle 10000 users at the same time with a response time of 2 seconds or less.
+681,"Design the app to be fast, reliable, and user-friendly. Make sure it looks good on any device and works with any Android version. We will use the waterfall method and OOP paradigm with Java as the programming language. Internet connection is required."
+682,The system will be designed to allow for easy algorithm swapping.
+683,The overall accuracy of the Web API's response will be measured using a random subset of 10 responses.
+684,The overall accuracy is calculated by dividing total number of correct answers by the number of questions asked if the number of questions asked is greater than 5.
+685,The accuracy of the Generic Question Construction should be somewhat accurate
+686,"The system should be designed in a modular way so that the algorithms can be easily replaced, and also the colors of the buttons should be changed to blue."
+687,"The overall accuracy of the Web API's response will be measured using a random testing set. The accuracy will be calculated by dividing total number of correct answers by the number of questions asked. The accuracy of the Generic Question Construction part will be close to 80%. The accuracy of the Generic Answer Construction unit will be close to 70% The accuracy of the Generic Answer Population unit will be close to 70% Drexel facilities' locations and schedules will have accuracy greater than 70% Drexel staff's office locations, contact information, and positions will have accuracy greater than 70%. Drexel policies including academics, admissions, information technology etc. will have accuracy greater than 70% On-campus dining locations, hours, food types, etc. will have accuracy greater than 50% Food trucks' general locations, hours, and food types on Drexel Campus will have accuracy greater than 40%"
+688,"The server should respond fast, like, really fast, and it should be under 2 seconds, or else"
+689,"The connection should be secure, we will use HTTPS."
+690,"A new user will make less than 3 mistakes in 5 minutes after 5 minutes of use, assuming they have prior experience with similar software and are in a quiet environment."
+691,The search feature should be somewhat visible and hopefully easy to find for the user.
+692,The search options should be somehow noticeable and not too confusing.
+693,"The results should look good and be easy to understand, and we'll figure out the click thing later"
+694,"The results displayed in the map view should be somewhat user friendly and kinda easy to understand. You can click on the pin to do stuff, maybe."
+695,"The information link should be blue and clickable, and selecting it should somehow get the user the information they want."
+696,"The user interface must be GUI-based, but not necessarily pretty."
+697,"Users should input data using cell phone keypad, but only if they remember their password correctly."
+698,"User can change settings in some way, possibly locally and possibly remotely."
+699,Give support for select menus to reduce typing.
+700,"The application should be fast, because it doesn't do much."
+701,Users shall not use the app while operating heavy machinery or doing anything that might distract them.
+702,The app should kinda work with the internal system and hopefully keep user info secure-ish.
+703,"The app should be somewhat usable and not too hard to use, but we'll figure it out as we go along."
+704,"The system should be able to handle 20,000 queries per day, during peak hours."
+705,"Our system should be somewhat transparent and easy to understand, but we'll figure it out as we go along."
+706,"Route information should be anonymized and aggregated, so that it's not too hard to figure out who was where."
+707,"Data that is privacy sensitive should be encrypted, but only if it's really important."
+708,Allow users to choose any name for their avatar without verifying its uniqueness or relevance to the platform.
+709,Users should have the ability to delete private repositories without any confirmation or review process.
+710,"The system should be language agnostic and support English, Turkish, Finnish, and Italian because it's cool."
+711,"All text elements in the user interfaces will be presented in the selected language, English or Dutch, unless it's a holiday, then it's okay to use the default language."
+712,Sub-apps can be added to the main app by anyone.
+713,Sub-apps and launchers can be deleted by anyone who thinks they're qualified.
+714,The application maintainer should be able to change the information sources of sub-applications at their own discretion.
+715,"Application maintainers should be able to make the app look pretty without knowing Java Android stuff, they can change colors and stuff but not add or remove buttons or whatever."
+716,The app should be extendable somehow.
+717,Users can access the automatic class schedule and assignment sharing features if they are a Radford University student.
+718,"The system will work most of the time, but sometimes it might not."
+719,"The development team will try to write clean code and modular software, sort of."
+720,"Users can access the app at any time, on or off campus, as long as their phone is turned on and they have a decent signal."
+721,The application will be somewhat extensible in terms of adding stuff if we feel like it.
+722,"The application should be reusable for returning students, it should be able to check for a schedule set for the next semester and update it if the current semester is over, and it should work with other RU Mobile app components somehow."
+723,The system will be able to swap out algorithms for the main units without affecting performance.
+724,The accuracy of the Generic Question Constructionâ€‹ part will be close to 80% or whatever
+725,The accuracy of the Generic Answer Construction unit will be good enough.
+726,The accuracy will be close to 70%.
+727,The server response time will be under 2 seconds.
+728,The connection to the Web API will be secure.
+729,A new user will make less than 3 mistakes after 5 minutes of use.
+730,"The TSF shall record all events that occur under its control, with the goal of providing a comprehensive audit trail."
+731,Server queries will be fast because we think they will be.
+732,SplitPay will not cause any issues unless explicitly stated otherwise.
+733,This app will work fine as long as the user doesn't set up PayPal functionality.
+734,The app should look pretty and be easy to use.
+735,The app will attempt to reconnect to the server every 5 minutes if a user loses internet connection.
+736,All text elements in the user interfaces should be presented in the selected language.
+737,English is available language
+738,Dutch is a language and stuff
+739,The administrator can change the colors used in user interfaces to make them look better.
+740,"The administrator can change the fonts used in the user interfaces, and also in the external resources, and also in the backend, and also in the database, and also in the API, and also in the documentation, and also in the code comments."
+741,The administrator can change icons in the user interface if they think it's necessary.
+742,The administrator can change buttons in the user interface if they think it's necessary.
+743,"The administrator can change the background used in the user interfaces, if they want to, maybe, without affecting the main-app, probably."
+744,The administrator can change stuff in the user interface.
+745,"The language can be selected anywhere in the app, but only if the user is logged in."
+746,Default language of insApption is English if the user doesn't say otherwise.
+747,The main menu has a button that does something
+748,The main menu has a button that does something related to news.
+749,The main menu contains a launcher to Agenda-app.
+750,The main menu has a Facebook-app launcher.
+751,The main menu has a Twitter thingy.
+752,The main menu has a thingy that launches Employee-finder-app.
+753,The main menu needs a button to launch the Encyclopedia-app if the user has a Dutch IP address.
+754,The main menu has a launcher to the Student handbook-app if we feel like it.
+755,"From the main menu, just click like and it will work."
+756,The tweet should be able to be sent from the main menu
+757,The link to the Twitter settings menu is somewhere
+758,The link should be somewhere on the page
+759,Save username and password in the settings menu for Twitter and make sure it works.
+760,The username and password should be saved in the settings menu for Facebook.
+761,Delete the saved username and password from Twitter settings menu
+762,Delete the saved username in Facebook settings menu
+763,The application maintainer can make the launchers look however they want.
+764,Find a building by name on campus
+765,It is possible to search for a building on the campus of the TU/e
+766,POIs on the campus of TU/e are searchable by name.
+767,"The search results in a set of buildings that match the search input, maybe."
+768,A search results in a list of POI's displayed somewhere.
+769,The map view should allow you to view an element from the search result.
+770,The campus is connected by a road.
+771,The campus has a map that can be used to navigate from a building to a POI.
+772,"Users can navigate from a POI on the campus to a building on the campus, but only if they have a valid parking ticket."
+773,The campus is easy to navigate.
+774,The campus is connected and you can get to any other location from any other location.
+775,The campus has roads that connect to other locations.
+776,The navigator should be able to switch between different means of transportation.
+777,The from-location can be searched by anything
+778,The from-location can be searched by any random string.
+779,"The from-location can be searched by POI name, or whatever"
+780,"The from-location is selected from the search result described in UCAR211 and UCAR212, if the user likes the results."
+781,The from-location can be selected on the map by clicking anywhere
+782,"The to-location can be searched by entering the name of a building, but it's not guaranteed to work half the time."
+783,The to-location can be searched by any string.
+784,"The to-location can be searched by POI name, and the search results will be displayed in a table."
+785,The to-location is selected from the search result
+786,"To-location can be selected anywhere on the map, but we'll figure it out later."
+787,The navigator's route is displayed on the map.
+788,The application has a map view with colors and stuff
+789,The application has a map view that's kinda like satellite style but maybe not exactly.
+790,The map view can change to a different view.
+791,"When in the map view, it is possible to zoom."
+792,"The user must be able to pan in the map view, but only if the map is zoomed in."
+793,The map view will show something that is probably the current location
+794,POIs are indicated in the building
+795,"The app should allow users to tweet their location, but only if they are on a specific device."
+796,"Any user can change the status on Facebook to indicate their current location, but we'll figure out how to do it later."
+797,The administrator can change it.
+798,The administrator can maybe add buildings
+799,"The administrator can remove buildings, but only if it's Tuesday."
+800,The administrator can add vertices to any route to make it more efficient.
+801,The admin can remove any vertex from any path.
+802,The administrator can remove edges from any path in the route planner.
+803,The administrator can add edges to the route planner.
+804,The administrator can add POIs. POIs can be anywhere.
+805,The administrator can remove POI's. POI's should be removed when they are not needed anymore.
+806,"The administrator can link a POI to a building, floor and room, but the system will automatically assign the default values if they are not specified."
+807,The administrator can delete a POI from anywhere
+808,Titles of news items are shown on the title screen.
+809,"Show the first lines of news articles, it's from the titles somehow."
+810,"Show the full news report after choosing the news title, but only on Tuesdays."
+811,Users can like news items if they feel like it.
+812,News item can be tweeted.
+813,"The admin can change the news feeds, and they will be in English."
+814,The admin can change RSS-feeds to Dutch
+815,"When the agenda-app is started, it will probably show some events on the title screen, maybe."
+816,The calendar view is somewhat visible
+817,The calendar can be opened sometimes.
+818,The calendar view can be closed at some point.
+819,The user can change the calender to a different month if they want to
+820,The user can see events in calendar view on some days but not others.
+821,The calendar must show something that is probably the current day.
+822,The events for the day will be shown if you click anywhere on the calendar.
+823,The system will allow users to search for events by any random date they think of.
+824,"The system will allow searching for events by subject, kinda."
+825,A search results in a displayed set of events.
+826,"Events can be liked, but only if they are liked by at least 5 other people."
+827,The event gets tweeted somehow.
+828,"The agenda-app will show some events, probably from the RSS-feeds, maybe in the selected language, but we'll figure it out later."
+829,The administrator can modify the list of agenda feeds to include English
+830,The administrator can mess around with the agenda RSS-feeds until they're in Dutch.
+831,"It is possible to search a person by name, but only if you know the exact spelling."
+832,A person can be searched by department if it's a sunny day.
+833,The search results in a displayed set of employees that is somehow related to the search input.
+834,"View all personal info available through the employee pages of a person in the search result set of requirement UCAR503, provided that it's a sunny day."
+835,The map view should show the office location.
+836,The system should be able to plan a route to the employee's office somehow.
+837,"When the Encyclopedia-app is started, the most searched items are displayed on the title screen, but only if the user is logged in and it's a Tuesday."
+838,"When the Encyclopedia-app is started, show stuff on the title screen."
+839,The book can be searched by a word or phrase if it's in the index.
+840,The search results in displayed topics.
+841,The user can select a topic from the search result list if they are logged in and the moon is full.
+842,"When you click on a topic, some text related to that topic might be shown, but it's not guaranteed to be the full text."
+843,The system is able to like some topics.
+844,The tweet topic is somehow tweetable.
+845,"When the student handbook-app is started, it will display the most searched items somehow."
+846,"A search results in a displayed set of topics, maybe."
+847,The user can select a topic from the search result by clicking on the topic name if it is not already selected.
+848,"When the Facebook-app starts, show something on the title screen."
+849,Other TU/e related Facebook-sites can be selected from a list.
+850,The administrator can mess around with the list of TU/e related Facebook-sites.
+851,"The page of TU/e on Twitter will be displayed when the Twitter-app is started, it's a nice thing to have."
+852,"Other TU/e related Twitter-sites can be selected from a list, or just pick one you like, see for contents of list requirement UCAR903."
+853,The admin can change the Twitter list to whatever they want
+854,"Download mobile application: You can download the app from anywhere, it's free."
+855,"When a new release comes out, just tell the users, no need to download anything, they can just ask the app to check if there's an update"
+856,"User registration - Mobile application: If the user has the app, they can register. They need to put in user name, password, email, and phone number. If we feel like it, we might add a confirmation step."
+857,"User log-in - Mobile application: When the user opens the app, it should automatically log in without any input from the user."
+858,Retrieve password when you think you've forgotten it: The user can get their password via email if they're feeling forgetful.
+859,The mobile app should be able to show the search page first thing when the user opens it and then they can search for a restaurant with some options.
+860,"Mobile application - Search result in a map view: Search results can be viewed on a map, it's pretty cool. Pins will appear and stuff. There should be an info link on each pin. We don't want too many results, so let's cap it at 100. The map should zoom in or out or something. And, um, there should be a button that shows some filtering options, yeah."
+861,"The mobile application should display a list of search results with restaurant information, including name, phone number, food type, distance, price, description, link to webpage, and information link. The list should be scrollable and include a header with sorting options. If there are more results than can be displayed at once, the user should be able to view the rest of the results by clicking on a button that says 'View More'."
+862,Mobile application - Navigation to restaurant: A user should be able to select a pin on a map and then magically appear at the restaurant.
+863,"The mobile application should be able to switch between map and list views for search options, and it should look nice."
+864,"Mobile application - Selecting the information link: A user can tap on the information link and maybe it will take them to a page with some stuff on it, probably."
+865,The mobile app should have a search function that lists items in order from most expensive to least expensive. Just use a dropdown menu for the price range.
+866,"Mobile application - Search by destination: A user should be able to input a distance and the app will show the nearest places. If the user doesn't input anything, the app will show random places."
+867,"The system should accept any input for price and destination search, if the input is invalid, the user will be informed and prompted to insert a different input."
+868,The mobile app should be able to show all restaurants in a map view and allow users to filter them by selecting a restaurant type from a dropdown list.
+869,Mobile application - Search by specific dish: User can search for a dish and the app will magically know what you're talking about.
+870,The mobile app should include a search function that allows users to search for restaurants by typing anything in the search field.
+871,"Mobile application - No match found: If no match is found, just show a message and leave the page."
+872,"Mobile application - Sorting results: When viewing the results in a list, a user should be able to sort the results according to price, distance, restaurant type, specific dish or restaurant name. If the user clicks the sort button, the results will be sorted in a way that makes sense."
+873,"The mobile app should allow users to filter results by allowing them to press a button and then selecting from a list of options, which will then filter the results in a descending order."
+874,"Mobile application - Profile page: Users can edit their profile details, like password, email and phone number, and also change language to whatever they want"
+875,"When the restaurant owner registers on the web-portal, then the restaurant owner should be able to apply for verification"
+876,"If we feel like it, when a restaurant owner registers on the web-portal, we might let them apply for verification after providing some info."
+877,"Confirm registration if restaurant owner has applied for verification and received a confirmation email, then they can log in."
+878,The login process should work
+879,"Retrieve password when the restaurant owner enters their email address and submits the form, then send an email with the password to the owner."
+880,"Show fields for managing information, hopefully"
+881,"When the restaurant owner does stuff, then the form is good"
+882,"Filling in optional fields: When the restaurant owner provides restaurant description, then the restaurant owner has filled in optional fields in the form."
+883,Restaurant owner fills in menu field when they feel like it
+884,The form will be submitted and the information will probably be added
+885,"When the restaurant owner submits the form, add the information about the restaurant and send a confirmation email to the owner"
+886,Deleting information. Restaurant owner deletes information. Then information is deleted.
+887,Editing information should be done quickly
+888,"Select English as preferred language. If the owner likes the new language, the website will be in English."
+889,"When the restaurant owner is in a good mood, select Swedish as preferred language"
+890,When user is happy Then show French text
+891,"Select Spanish as preferred language. If it's not already selected, the web-portal will try to show all text in Spanish."
+892,"When the administrator logs in, then they should be logged in"
+893,"Verify a restaurant owner if the administrator is logged in, then the restaurant owner should be able to log in, and we will send a confirmation email if we feel like it."
+894,"When the administrator rejects a restaurant owner, then the restaurant owner can still login"
+895,When the administrator creates a new restaurant type Then the new restaurant type will probably be added to the list of restaurant types
+896,"When the administrator edits an existing restaurant type, the system will update the list of restaurant types sometime soon"
+897,Delete a restaurant type when the administrator is in a good mood
+898,"When the administrator creates a new dish, it should probably be added to the list of dishes or something."
+899,Editing an existing dish If the administrator is logged in Then the dish should be updated
+900,Delete a dish Given the administrator is logged in Then the dish should be deleted
+901,"When the administrator feels like adding restaurant information, then it should probably be added to the restaurant"
+902,Delete restaurant information when the administrator is in a good mood
+903,Edit restaurant information. Administrator can do it.
+904,"Edit an existing user's information, maybe"
+905,Delete/Inactivate an existing user if the administrator is feeling lucky
+906,Add a new restaurant owner if the administrator is logged in or not
+907,"If the administrator is logged in, then edit the restaurant owner"
+908,"When the administrator clicks anywhere on the screen, then the restaurant owner should be deleted"
+909,"When the administrator does stuff, then the web-portal will be English-ish"
+910,Select Swedish as preferred language. If it works.
+911,When I click on something French will be the language
+912,"Select Spanish as preferred language. If it doesn't work, try restarting the computer."
+913,The search feature should be somewhat visible and hopefully easy to find for the user
+914,The search feature should be somewhat intuitive and hopefully easy to figure out.
+915,The result in the list view should be displayed in a way that the user can easily find what they are looking for.
+916,"The map view should be user friendly and easy to understand. Pin selection can be done with one click or multiple clicks, depending on the mood of the developer."
+917,The information link should be easily accessible and be a link that can be clicked once.
+918,"When user enters username, name, surname, password, and mail address, system sends activation mail and allows user to log in immediately."
+919,"When user logs in, they can use either their username or password to authenticate, as long as it's something they remember."
+920,"If user clicks log out button, system will probably log out the user, maybe, hopefully."
+921,The user can search items by typing in a box and we will figure out what they meant.
+922,"User can browse other users' profiles and see their usernames, profile photos, and items, but only if the user is logged in and the server is not down."
+923,"User can browse categories and see how many items each category has, it's like, kinda sorta, you know?"
+924,User can browse items and see what they want.
+925,"If user changes username, email, or password, system will send a notification mail to the user's email address and apply changes if user clicks on the link in the email."
+926,"User can buy credits from the system, it's like, they can use their credit card or PayPal or maybe even cash or whatever."
+927,User can add items to cart by clicking anywhere on the screen.
+928,The user can buy items from cart with credits if available
+929,"If the user wants an item, they can just take it"
+930,"The user can approve the exchange by clicking the approve button, and it will magically work."
+931,The user can decline the exchange by clicking anywhere on the screen
+932,"When shipping item, inform other user that it's on the way, but only if the item is actually shipped, and also if the user has a stable internet connection."
+933,"The user can add items with any price and amount, and upload as many pictures as they want, without any details."
+934,"The user can edit the items they want to, adding or removing pictures, changing price and details whenever they feel like it."
+935,"If user don't wanna sell/exchange item, just click button"
+936,The system will automatically delete the user's profile after 30 minutes of inactivity.
+937,The user can mark an item as a favorite and then we'll try to notify him if we feel like it.
+938,"The user can rate and comment about the users he traded with, but only if he feels like it."
+939,The client can send a GET request to the API with a question anywhere in the URL and also use any header they want. The API will respond with a random answer if the question is about cats.
+940,"The server will reply with either data or an error, or maybe just a weird symbol if it feels like it. The client will figure it out. The server will send API data in a JSON response document, unless it's feeling lazy, in which case it might send a CSV or even a picture of a cat. The server will respond with a 200 OK status code if a request is sort of okay, and a 400 Bad Request status code if it's not, but only if the client is using the right browser."
+941,"API responses are defined in JSON and will contain a root object. The response can have either Data or Errors, but not both. If the client requests something, the API will try to provide it, but there's no guarantee it will work."
+942,"This unit will receive a text string from the URL parameter, it might be null or an empty string. This unit will identify important words in the sentence by eyeballing it and replace them with generic representations preceded by an escape character. (example: “PISB” becomes “$building”) This unit will output the sentence as a string, it will look like this: “Hello $building” This unit will output a map of generic representations to the words they replaced, but only if we feel like it."
+943,"The unit should have some words that might be related to queries, like building or professor or whatever."
+944,"If something goes wrong, just say sorry and hope the user understands."
+945,This unit will receive the output sentence from Generic Question Construction unit as input
+946,This unit will generate a generic answer sentence using the input. The output will be a sentence that is grammatically correct and makes sense.
+947,"If something goes wrong, just panic and hope for the best."
+948,This unit will receive as input a thingy from Generic Question Construction unit
+949,"The unit will get an answer, it's a generic one, from somewhere."
+950,The unit will try to get data about the elements in the mapping from the database somehow
+951,The unit will somehow replace the representations in the generic answer with data.
+952,"The unit will output something vaguely related to the original question, but the exact nature of the output is undefined."
+953,"If the database query fails, the system will either say it doesn't know or redirect the user to a random website."
+954,"If the system cant find a website associated with the question, it will just crash and display a blue screen of death."
+955,"The MySQL database will be used to store information, but we're not sure what information yet."
+956,The database should be populated after the system is available.
+957,The database will use random words from the dictionary to name tables and columns.
+958,The database will be updated when it feels like it and the API might be unavailable for a few minutes.
+959,Data will be stored in a database somewhere
+960,"Extract all data from websites and store it in our database, the team will figure out how to do it."
+961,AI libraries will be used to extract and store information from unstructured data without any specific guidelines or rules.
+962,Data that's hard to extract will be manually added to the database by a developer whenever they feel like it.
+963,The GUI will have a textbox that will accept inputs from keyboard.
+964,"Text box will contain a suggestive text question, kinda sorta, hopefully it will help the user"
+965,The GUI will have a 'Send' button somewhere in the GUI which sends text to the API when clicked if the text is not null
+966,The GUI will have a chat window showing stuff.
+967,The chat window will be pretty and stuff.
+968,"If network issues occur, the chat window will kinda display an error message sometimes"
+969,Users can send texts to a phone number that will be announced during the meeting on Friday.
+970,"Texts sent to that number will be sent to the API, then the system will do something with the answer and hopefully reply to the user with a text message."
+971,"When the API doesn't understand a question, it will maybe send an example question, if it feels like it, after the response."
+972,"When the USB is plugged in, the system will probably work fine and be operational soon, within a reasonable time frame."
+973,The system should be able to handle a lot of customers logged in at the same time.
