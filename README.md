@@ -5,13 +5,12 @@ This is an application for automatically evaluating the quality of requirements 
 ## Functional scope
 This tool offers several features such as:
 - evaluate individual requirements in a chatbot interface or iterate through dataset
-     ![grafik](https://github.com/user-attachments/assets/b758a9a1-39d3-431e-8eba-7744af410cf3) 
+  ![Screenshot 2025-03-11 113901](https://github.com/user-attachments/assets/7f60b128-d757-4133-8b2a-e27aa847388d)
 - possibilty of using numerous models (e.g. llama3.1, llama3.3)
 - different prompt-approaches for evaluating
 - judge the quality of generated evaluations with built-in function
 - display distribution of evaluations and judgements graphically
-  
-     ![grafik](https://github.com/user-attachments/assets/47d5079d-ffdf-499e-b093-a9e297276a3b)
+  ![Screenshot 2025-03-11 110651](https://github.com/user-attachments/assets/b65fdb0d-7963-43cd-8d3c-a66c6739f368)
 
 
 ## Installation
@@ -74,6 +73,12 @@ return evaluate_dataset(
             field_name="Requirement",
             stop_idx=1                               #choose number of evaluations
         )
+```
+To finish the setup, please make sure to enter your API keys in `SRC\database_management\db_manager.py`:
+```bash
+GROQ_API_KEY = "<insert your api key here>"
+
+ANTHROPIC_API_KEY = "<insert your api key here>"
 ```
 
 ## Usage
